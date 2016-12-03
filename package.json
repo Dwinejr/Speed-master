@@ -1,5 +1,6 @@
 {
   "name": "vtex-speed",
+  "accountName": "MarciaMello",
   "version": "3.1.0",
   "readmeFilename": "README.md",
   "description": "VTEX Store development tools - reverse proxy, compilation, minification, optimization and more!",

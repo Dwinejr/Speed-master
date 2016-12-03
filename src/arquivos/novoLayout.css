@@ -1,0 +1,3590 @@
+html {
+  overflow-x: hidden;
+}
+
+* {
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  margin: 0px;
+}
+
+.separadorLinksSuperiores {
+  width: 1px;
+  height: 20px;
+  background-color: #1bb2b0;
+  float: left;
+  margin: 6px 6px 0px 6px;
+}
+
+.globalHeader {
+  width: 100%;
+  height: 100px;
+  background-color: #fff;
+}
+
+.contentHeader {
+  width: 1000px;
+  margin: 0 auto;
+  height: 100px;
+  padding: 0;
+  overflow-y: hidden;
+}
+
+.logoMarciaMello {
+  width: 230px;
+  height: 50px;
+  float: left;
+  background-image: url('/arquivos/logo-mm-ilus.svg');
+  background-size: 230px;
+  background-position: 0px center;
+  margin: 7px 0px 0px 20px;
+  background-repeat: no-repeat;
+}
+
+.linksSuperiores {
+  margin-right: 0;
+  float: right;
+  background-color: #f2f1f1;
+  padding-right: 10px;
+  height: 31px;
+}
+
+.linksSuperiores a, .linksSuperiores span.top-desconto, .sac {
+  float: left;
+  margin-top: 8px;
+  color: #1bb2b0;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: 'Yanone Kaffeesatz',sans-serif;
+}
+
+.linksSuperiores span.top-desconto {
+  color: #10153F;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.linksSuperiores a:hover {
+  text-decoration: underline;
+  color: #10153F;
+}
+
+.infoSacHeader {
+  width: 160px;
+  float: right;
+  margin: 0px;
+  color: #E93B60;
+  font-family: 'Yanone Kaffeesatz',sans-serif;
+  font-size: 18px;
+}
+
+.sacHeader {
+  margin-top: 72px;
+}
+
+.carrinhoHeader {
+  margin-top: 8px;
+  width: 140px;
+  height: 50px;
+  float: right;
+  cursor: pointer;
+  background-image: url('/arquivos/bgCarrinho.png');
+  background-repeat: no-repeat;
+  background-size: 41px;
+  color: #10153F;
+  overflow: hidden;
+}
+
+.cartInfoWrapper .title, .amount-products, .amount-kits, .total-cart {
+  display: none;
+}
+
+.amount-items {
+  font-size: 11px;
+  font-family: 'Arial',sans-serif;
+}
+
+.amount-items-em {
+  float: left;
+  margin: 0px 5px 0px 11px;
+  font-style: normal;
+}
+
+.minhasCompras {
+  margin: 5px 5px 0px 0px !important;
+  font-size: 12px;
+  float: right;
+  font-family: 'Arial',sans-serif;
+  font-weight: 700;
+}
+
+.buscaHeader {
+  width: 375px;
+  margin: 14px 0px 0 5px;
+  float: left;
+}
+
+.busca {
+  border: none !important;
+  width: 417px;
+  position: relative;
+  box-shadow: none;
+  padding: 8px !important;
+  margin: 0 !important;
+}
+
+.busca legend, .busca label, .busca select {
+  display: none;
+}
+
+.fulltext-search-box {
+  width: 400px;
+  height: 28px !important;
+  border-radius: 6px !important;
+  border: 1px solid #1bb2b0 !important;
+  padding: 4px 0px 0px 15px !important;
+  text-transform: uppercase;
+  color: #848688 !important;
+  font-size: 16px !important;
+  font-family: 'Arial',sans-serif;
+  margin: 0 !important;
+}
+
+.btn-buscar {
+  background-color: #fff;
+  border: none;
+  margin-left: -76px;
+  color: #10153f;
+  font-size: 20px;
+  font-family: 'Yanone Kaffeesatz',sans-serif;
+  cursor: pointer;
+  width: 70px !important;
+  position: absolute;
+  top: 10px;
+}
+
+.naoServiu {
+  font-size: 15px !important;
+}
+
+.emailMarciaMello {
+  font-size: 15px !important;
+}
+
+.separadorLinksInferiores {
+  width: 1px;
+  height: 43px;
+  background-color: #10153F;
+  float: left;
+  margin: -5px 9px 0 5px;
+}
+
+.linksInferiores {
+  float: right;
+  width: 90px;
+  margin-right: 0;
+  margin-top: 20px;
+}
+
+.linksInferiores a {
+  color: #10153F;
+  text-decoration: none;
+  font-size: 18px;
+  margin-top: -4px;
+  font-family: 'Yanone Kaffeesatz',sans-serif;
+  display: block;
+  text-align: left;
+  padding-left: 15px;
+}
+
+#ajaxBusy, #ajaxBusy p {
+  display: none;
+}
+
+.ui-autocomplete {
+  width: 392px !important;
+  background-color: rgba(255,255,255,1);
+  border-radius: 2px;
+  padding: 10px 0px 15px 25px;
+  border-top: 3px solid #e92958;
+  margin-top: 19px;
+  position: absolute !important;
+}
+
+.ui-menu-item {
+  font-family: 'Yanone Kaffeesatz',sans-serif;
+  color: #008887;
+  font-size: 22px;
+  line-height: 34px;
+  list-style: none;
+  cursor: pointer;
+}
+
+.ui-menu-item:hover {
+  color: #000000;
+}
+
+.ui-corner-all img {
+  width: 30px;
+  height: 30px;
+}
+
+/*RETIRAR*/
+.contentHome {
+  width: 980px;
+  margin: 0 auto;
+}
+/*RETIRAR*/
+
+.globalMenu {
+  width: 100%;
+  height: 23px;
+  background-color: #1BB2B0;
+  float: left;
+  margin-top: -6px;
+}
+
+.globalMenu h3 {
+  float: left;
+  position: relative;
+  width: 121px;
+  height: 23px;
+  margin-top: 0px;
+  text-align: center;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  border-right: 1px solid #fff;
+}
+
+.globalMenu a.menu-item-texto {
+  width: 100% !important;
+  float: left;
+  height: 23px;
+}
+
+.globalMenu h3.blog {
+  border-right: 0;
+}
+
+.globalMenu h3:hover {
+  background-color: #fff;
+}
+
+.globalMenu h3 a, .globalMenu ul li a {
+  color: #fff;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.globalMenu ul {
+  position: absolute;
+  top: 7px;
+  width: 370px;
+  display: none;
+  background-color: rgba(255,255,255,0.9);
+  text-align: left;
+  border-top: 0 !important;
+  border: solid 1px #1bb2b0;
+  z-index: 3;
+  padding: 0px 10px 0px 24px;
+  margin: 16px 0px 0px 0px;
+  left: 120px;
+}
+
+.globalMenu ul.calcados {
+  left: 456px;
+}
+
+.menu-departamento {
+  width: 980px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.globalMenu .Tamanho, .globalMenu .Cor {
+  display: none;
+}
+
+.globalMenu ul li {
+  width: 175px;
+  display: inline-block;
+  color: #007f7b;
+  line-height: 33px;
+  /* overflow: visible !important; */
+  position: relative;
+  z-index: 5;
+}
+
+.globalMenu .menu-departamento h3:hover + ul, .globalMenu h3:hover ul, .menu-departamento ul:hover {
+  display: block !important;
+}
+
+.globalMenu ul li a {
+  color: #1bb2b0;
+  text-transform: none;
+  width: auto;
+  float: left;
+  margin: 5px 0 0;
+  border-radius: 10px;
+}
+
+.globalMenu ul li a:hover {
+  color: #fff;
+  display: inline-block;
+  background-color: #10153f;
+  border-radius: 15px;
+  padding: 0 20px;
+  left: -20px;
+  position: relative;
+  font-size: 17px;
+}
+
+.globalMenu h3.sale,
+.globalMenu ul.sale a:hover {
+  background-color: #FF7200;
+}
+
+.vestidoGlobalMenu {
+  width: 152px;
+  height: 184px;
+  background-image: url('/arquivos/vestidoGlobalMenu.gif');
+  position: absolute;
+}
+
+.menu-departamento ul.roupas {
+  padding-right: 24px;
+  min-height: 184px;
+  width: 440px;
+  left: 108px;
+  columns: 4;
+  -webkit-columns: 4;
+}
+
+h3.preview-verao-2015 {
+  background-image: url("/arquivos/previewVeraoIcone.png");
+  background-position: 28px 7px;
+  background-repeat: no-repeat;
+  background-size: 129px;
+  font-size: 15px;
+  height: 52px;
+  padding-top: 4px;
+}
+
+ul.preview-verao-2015 {
+  top: 42px !important;
+  border: none;
+}
+
+.preview-verao-2015 .menu-item-texto {
+  font-size: 16px;
+}
+
+h3.reveillon {
+  background: url(/arquivos/reveillonIcone.png?v=55484) no-repeat 11px -7px;
+}
+
+h3.reveillon:hover {
+  background-position: -135px -7px;
+}
+
+.globalMenu h3.roupas {
+  background-image: url("/arquivos/roupasIcone.png");
+  background-position: 39px 4px;
+  background-repeat: no-repeat;
+  background-size: 113px;
+}
+
+.globalMenu h3.acessorios {
+  background-position: 34px 4px;
+  background-repeat: no-repeat;
+  background-size: 140px;
+}
+
+.globalMenu h3.sapatos {
+  background-image: url("/arquivos/sapatosIcone.png");
+  background-position: 36px 6px;
+  background-repeat: no-repeat;
+  background-size: 119px;
+}
+
+.globalMenu h3.casa {
+  background-position: 36px 7px;
+  background-repeat: no-repeat;
+  background-size: 112px;
+}
+
+/*hovers menu*/
+h3:hover > a {
+  color: #10153F;
+}
+
+.linksInferiores a:hover {
+  color: #1BB2B0;
+}
+
+.benefits-bar a:last-child img {
+  width: 192px;
+}
+/*PITBAR*/
+.pitbar {
+  width: 734px;
+  height: 62px;
+  padding: 22px 0px 0px 30px;
+  float: left;
+}
+
+.itemPitbar {
+  font-family: "Times New Roman";
+  color: #000000;
+  float: left;
+  cursor: pointer;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.separadorPitbar {
+  width: 2px;
+  height: 52px;
+  float: left;
+  margin: 0px 10px 0px 10px;
+  background-color: #000000;
+}
+
+.trocaGratis {
+  width: 140px;
+}
+
+.ate30Dias {
+  font-size: 11px;
+  margin-left: 53px;
+}
+
+.txtTrocaGratis, .txtFreteGratis, .txtEmAte {
+  font-size: 16px;
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.freteGratis {
+  width: 140px;
+}
+
+.6xSemJuros {
+  width: 170px;
+}
+
+.txtEmAte {
+  width: 95px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.txtMinimo {
+  font-size: 9px;
+}
+
+.txt6x {
+  font-size: 35px;
+  margin-top: 9px;
+}
+
+.txtSemJuros {
+  width: 70px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.txtSaleAte {
+  float: left;
+  width: 75px;
+  text-align: center;
+  margin-top: 8px;
+}
+
+.txt70 {
+  font-size: 40px;
+  margin-top: 3px;
+}
+
+.salePoncentagem {
+  font-size: 21px;
+}
+
+.txtOff {
+  margin: 27px 0px 0px 7px;
+  font-size: 18px;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.pitbar p {
+  float: left;
+}
+
+.conteudo {
+  width: 980px;
+  margin: 0 auto;
+}
+
+/*NEWSLETTER*/
+.newsletterMarciaMello {
+  width: 210px;
+  float: left;
+}
+
+.newsletter-title {
+  display: none;
+}
+
+.newsletter fieldset {
+  border: none;
+    /* padding: 3px 0px 0px 47px; */;
+}
+
+.newsletter fieldset p span {
+  color: #e92958;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 17px;
+}
+
+fieldset.success {
+  margin-top: 4px;
+}
+
+.success label {
+  color: #008887;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-style: normal;
+  font-size: 17px;
+}
+
+.newsletter fieldset p {
+  color: #008887;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 17px;
+  margin: 1px 0px 3px 0px;
+  text-align: center;
+    /* width: 164px; */;
+}
+
+#newsletterClientName, #newsletterClientEmail {
+  border: 1px solid #7accbf;
+  border-radius: 1px;
+  width: 160px;
+  height: 25px;
+  color: #747578;
+  padding: 0px 0px 0px 5px;
+}
+
+#newsletterClientEmail {
+  margin-top: 5px;
+  width: 107px;
+}
+
+#newsletterButtonOK {
+  background-color: #008887;
+  color: #ffffff;
+  width: 43px;
+  height: 20px;
+  margin-left: 2px;
+  border: none;
+  border-radius: 1px;
+  cursor: pointer;
+  padding: 0px;
+}
+
+.newsletter h3 {
+  display: none;
+}
+
+.newsletter-footer .success p {
+  background: none;
+  text-indent: 0;
+  color: #1BB2B0;
+  height: auto;
+  margin: 35px 0 0 0 !important;
+  padding: 0;
+  font-size: 20px;
+  line-height: -8em;
+}
+
+.newsletter-footer .success br {
+  display: none;
+}
+
+.newsletter-footer .success p span {
+  color: #10153F;
+  font-size: 26px;
+  text-shadow: 0 0 2px #10153F;
+  float: none;
+  display: inline;
+  line-height: normal;
+}
+
+/*GLOBAL FOOTER*/
+
+.globalFooter {
+  width: 100%;
+  float: left;
+  background-color: #1bb2b0;
+  padding: 0px 0px 8px 0px;
+}
+
+.globalFooterContent {
+  width: 915px;
+  padding: 23px 0px 0px 65px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.globalFooterContent div {
+  float: left;
+}
+
+.globalFooterEndereco {
+  width: 290px;
+  float: right;
+  width: 380px;
+  font-size: 8px;
+  text-align: right;
+  margin: 6px 10px 0px 0px;
+  color: #ffffff;
+  font-family: "Arial", sans-serif;
+}
+
+.lojaVirtualFooter {
+  width: 190px;
+}
+
+.institucionalFooter {
+  width: 180px;
+}
+
+.globalFooter a {
+  float: left;
+  width: 100%;
+  line-height: 25px;
+  color: #ffffff;
+  font-size: 16px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.globalFooter a:hover {
+  color: #10153F;
+  font-size: 20px;
+  transition: 0.4s;
+}
+
+.globalFooterContent h1 {
+  color: #ffffff;
+  font-size: 28px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  margin-top: 0px;
+  font-weight: 100;
+  text-transform: capitalize;
+}
+
+/*REDES SOCIAS FOOTER*/
+#redes-sociais-rodape {
+  overflow: hidden;
+  float: left;
+  text-align: right;
+  width: 234px;
+  height: 254px;
+}
+
+#redes-sociais-rodape p {
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  width: 234px;
+  padding-top: 2px;
+}
+
+#redes-sociais-rodape .redes-sociais {
+  overflow: hidden;
+  float: left;
+  margin-top: 0px;
+  width: 193px;
+  height: 240px;
+  padding-left: 0px;
+}
+
+#redes-sociais-rodape .redes-sociais li {
+  display: block;
+  margin: 5px 13px 18px 0px;
+  clear: none;
+  background: none;
+  height: 21px;
+  padding: 0px;
+}
+
+#redes-sociais-rodape .redes-sociais li a {
+  background: url('/arquivos/ico-redes-sociais-rodape.png') no-repeat;
+  height: 21px;
+  display: block;
+  text-indent: 40px;
+  -webkit-transition: all .2s linear;
+  -o-transition: all .2s linear;
+  -moz-transition: all .2s linear;
+  -ms-transition: all .2s linear;
+  transition: all .2s linear;
+}
+
+#redes-sociais-rodape .redes-sociais li .ico-twitter {
+  width: 25px;
+}
+
+#redes-sociais-rodape .redes-sociais li .ico-twitter:hover {
+}
+
+#redes-sociais-rodape .redes-sociais li .ico-facebook {
+  background-position: -37px 0;
+  width: 10px;
+}
+
+#redes-sociais-rodape .redes-sociais li .ico-facebook:hover {
+}
+
+#redes-sociais-rodape .redes-sociais li .ico-instagram {
+  background-position: -62px 0;
+  width: 19px;
+}
+
+#redes-sociais-rodape .redes-sociais li .ico-instagram:hover {
+}
+
+#redes-sociais-rodape .redes-sociais li .ico-youtube {
+  background-position: -133px 0;
+  width: 28px;
+}
+
+#redes-sociais-rodape .redes-sociais li .ico-youtube:hover {
+}
+
+#redes-sociais-rodape .redes-sociais li:last-child {
+  margin-right: 0;
+}
+
+.globalFooterBandeiras {
+  width: 100%;
+  height: 76px;
+  background-color: #ffffff;
+  border-top: 6px solid #10153f;
+  float: left;
+}
+
+.bandeiras-parent {
+  width: 980px;
+  margin: 0 auto;
+  height: 76px;
+}
+
+.bandeiras {
+  float: left;
+  width: 332px;
+  height: 80px;
+  background: url("/arquivos/bandeirasMarciaMello2.png") no-repeat 0px 29px;
+  background-size: 330px;
+}
+
+.logo-enextms {
+  float: right;
+  width: 73px;
+  height: 32px;
+  background: url("/arquivos/enextms-footer.png") no-repeat;
+  margin-top: 25px;
+}
+
+/*conteudo da home*/
+.blogHome {
+  width: 560px;
+  height: 237px;
+  float: left;
+  margin-top: 30px;
+}
+
+.lookBookHome {
+  width: 980px;
+  height: 280px;
+  float: left;
+  margin: 30px 0px 23px 0px;
+}
+
+.making-of {
+  width: 400px;
+  background: url(/arquivos/bgMakingOf.jpg) no-repeat;
+  float: left;
+  margin: 30px 0px 0px 20px;
+  height: 240px;
+}
+
+.making-of iframe {
+  width: 401px;
+  height: 237px;
+}
+
+.tituloMaisVendidos, .tituloLookSemana {
+  width: 980px;
+  height: 25px;
+  margin-top: 46px;
+  float: left;
+}
+
+.barraAzulHome {
+  width: 358px;
+  height: 2px;
+  background-color: #1bb2b0;
+  float: left;
+}
+
+.barraRosaHome {
+  width: 358px;
+  height: 2px;
+  background-color: #1bb2b0;
+  float: left;
+}
+
+.txtMaisVendidos, .txtLookSemana {
+  color: #10153f;
+  float: left;
+  margin: -27px 31px 0px 31px;
+  font-size: 44px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.txtLookSemana {
+  margin: -27px 17px 0px 17px !important;
+}
+
+.txtVendidos, .txtSemana {
+  color: #10153f;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+/*MAIS VENDIDOS*/
+.prateleira.maisVendidos h2 {
+  display: none;
+}
+
+.prateleira.maisVendidos ul li .dados,.prateleira.maisVendidos ul li .ver-detalhes {
+  display: none;
+}
+
+.prateleira.maisVendidos ul li:hover .dados,.prateleira.maisVendidos ul li:hover .ver-detalhes {
+  display: block;
+}
+
+.prateleira.maisVendidos ul li:hover {
+  border: solid 1px #1bb2b0;
+  overflow: visible;
+}
+
+.prateleira.maisVendidos ul li .dados {
+  text-align: center;
+  color: #666;
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: bold;
+  transition: all .5s;
+  -moz-transition: all .5s ease-out;
+  -webkit-transition: all .5s ease-out;
+  -o-transition: all .5s ease-out;
+  margin-top: -60px;
+  background: rgba(255, 255, 255, 0.75);
+  z-index: 99999;
+  position: relative;
+}
+
+.prateleira.maisVendidos ul li .dados span.parcela {
+  display: block;
+  color: #008887;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.prateleira.maisVendidos ul li .ver-detalhes {
+  font-family: 'Yanone Kaffeesatz',sans-serif;
+  color: #fff;
+  font-size: 22px;
+  background: #1bb2b0;
+  text-align: center;
+  height: 37px;
+  line-height: 37px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-top: 10px;
+}
+
+.maisVendidos {
+  width: 895px;
+  height: 304px;
+  float: left;
+  margin-left: 25px;
+}
+
+.prateleira.maisVendidos ul {
+  width: 895px;
+  height: auto;
+  position: relative;
+}
+
+.prateleira.maisVendidos ul li {
+  width: 190px;
+        /* height: 265px; */
+  float: left;
+  overflow: hidden;
+  padding: 0px 5px 5px 5px;
+  margin: 0 10px;
+  position: relative;
+  border: solid 1px transparent;
+  background: #fff;
+  transition: all .5s;
+  -moz-transition: all .5s ease-out;
+  -webkit-transition: all .5s ease-out;
+  -o-transition: all .5s ease-out;
+}
+
+.prateleira.maisVendidos ul li a img {
+  width: 168px;
+  height: 275px;
+  z-index: 99988;
+}
+
+.prateleira.maisVendidos ul li.last {
+  /* border: none; */
+}
+
+.maisVendidos .name {
+  color: #000;
+  display: block;
+  font-weight: bold;
+  line-height: 15px;
+  display: none;
+}
+
+.maisVendidos .jcarousel-container.jcarousel-container-horizontal {
+  overflow: hidden;
+}
+
+.maisVendidos .jcarousel-prev, .maisVendidos .jcarousel-next {
+  position: absolute;
+  width: 38px;
+  height: 76px;
+  top: 40%;
+  cursor: pointer;
+}
+
+.maisVendidos .jcarousel-prev {
+  left: 0px;
+  background-image: url('/arquivos/setas-slider.png');
+  background-position: 0% 100%;
+}
+
+.maisVendidos .jcarousel-next {
+  right: 0px;
+  background-image: url('/arquivos/setas-slider.png');
+  background-position: 100% 0%;
+}
+
+#seloEbit {
+  float: right !important;
+  width: 90px;
+  margin-top: 231px;
+}
+
+.globalMenuContent {
+  margin: 0 auto;
+  width: 980px;
+}
+
+.menu-departamento h3 ul {
+  columns: 3;
+  -webkit-columns: 3;
+  -moz-columns: 3;
+}
+
+.n1colunas h2 {
+  display: none;
+}
+
+.productImage {
+  display: block;
+  z-index: 99988;
+}
+
+.productImage span {
+  display: block;
+  text-align: center;
+  z-index: 98;
+}
+
+ul.roupas a.productImage {
+  float: right;
+  margin-top: 8px;
+  margin-right: -18px;
+}
+
+ul.acessorios a.productImage {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+ul.sapatos a.productImage {
+  float: right;
+}
+
+ul.casa a.productImage {
+  float: right;
+  margin-top: -61px;
+  margin-right: -12px;
+}
+
+ul.sale a.productImage {
+  float: right;
+  position: absolute;
+  top: 70px;
+  right: 20px;
+}
+
+.globalMenu ul.sale {
+  width: 370px;
+  padding-right: 10px;
+  left: 672px;
+}
+
+.globalMenu ul.acessorios {
+  width: 371px;
+  left: 313px;
+  padding-right: 10px;
+}
+
+.globalMenu ul.casa {
+  width: 248px;
+  padding-right: 17px;
+  left: 608px;
+}
+
+.colecao li {
+  float: left;
+}
+
+ul.colecao {
+  width: 189px;
+  margin-top: 16px;
+  left: -1px;
+}
+
+span.aPartirDe {
+  font-size: 11px;
+}
+
+#MaisInformacoes h2 span {
+  font-family: 'Yanone Kaffeesatz',sans-serif;
+  font-size: 35px;
+  background-color: transparent !important;
+}
+
+.barraAzulProduto {
+  width: 358px;
+  height: 2px;
+  background-color: #008887;
+  float: left;
+  margin: 21px 10px 0px 12px;
+}
+
+.barraRosaProduto {
+  width: 358px;
+  height: 2px;
+  background-color: #ea2b59;
+  float: left;
+  margin: 21px 0px 0px 12px;
+}
+
+.navigation .menu-departamento h3.off-price, .navigation .menu-departamento h3.sale, .navigation .menu-departamento h3.acessorios {
+  background-image: none;
+  background-color: transparent;
+}
+
+#image-main {
+  display: block;
+  margin: 0 auto;
+  border: none;
+}
+
+ul.off-price {
+  left: 350px;
+  width: 460px;
+}
+
+ul.sale {
+  right: 0px;
+}
+
+ul.sapatos {
+  left: 327px;
+}
+
+.sub:last-child {
+  float: right;
+  margin-top: 50px;
+}
+
+ul.off-price .productImage {
+  float: right;
+  margin-top: -95px;
+}
+
+p.didyoumean {
+  margin: -6px 0px -12px 27px;
+  font-family: 'Yanone Kaffeesatz',sans-serif;
+}
+
+.MinProdutos {
+  display: none;
+}
+/*MOZZILA HACKS*/
+@-moz-document url-prefix() {
+  ul .acessorios a.productImage; {
+    margin: -95px 5px 0px 0px !important;
+  }
+}
+
+@-moz-document url-prefix() {
+  ul .roupas a.productImage; {
+    margin-top: -135px !important;
+  }
+}
+
+@-moz-document url-prefix() {
+  ul .sale a.productImage; {
+    margin: -145px 5px 0px 0px !important;
+  }
+}
+
+#fundo-catalogo {
+  background-color: #060606;
+  float: left;
+  width: 100%;
+}
+
+#fundo-catalogo .wrap {
+  margin: 40px 0px 30px 0px;
+}
+
+.issuuembed.issuu-isrendered {
+  margin: 0 auto;
+}
+
+.wrap p {
+  margin: 0px;
+  cursor: default;
+  color: transparent;
+}
+
+.issuuembed.issuu-isrendered div div:last-child {
+  display: none;
+}
+
+div:after {
+  clear: none;
+}
+
+#making-of {
+  position: initial;
+  height: 776px;
+  margin-bottom: 56px;
+}
+
+#making-of #making-of-banner {
+  top: 200px;
+}
+
+div#DigiCertClickID_rDYbygEk {
+  float: left;
+  width: 60px;
+  height: 30px;
+  margin: 30px 0px 0px 10px;
+}
+
+div#DigiCertClickID_rDYbygEk img {
+  width: 35px !important;
+}
+
+div#DigiCertClickID_rDYbygEk span a {
+  display: none !important;
+}
+
+.selo-pci-certified {
+  background-image: url('/arquivos/selo-pci-menor.png');
+  width: 60px;
+  height: 40px;
+  background-size: 29px;
+  background-repeat: no-repeat;
+  float: left;
+  margin: 30px 0px 0px 4px;
+}
+
+.selo-pci-produto {
+  float: left;
+  width: 100px;
+  height: 40px;
+  background-image: url('/arquivos/selo-pci-menor.png');
+  background-repeat: no-repeat;
+  background-size: 43px;
+  margin: 0px 0px 0px 40px;
+  display: none;
+}
+
+.floater.wrap-header {
+  border-top: 0;
+  width: 100%;
+  height: 70px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  border-bottom: solid 2px #1BB2B0;
+  z-index: 9999999999;
+  display: none;
+  background: rgba(255, 255, 255, 0.91);
+}
+
+.floater.wrap-header .header .busca input[type="text"] {
+  width: 260px;
+  padding: 5px 15px;
+  font-size: 12px;
+  color: #858184;
+  text-transform: Initial;
+  height: 20px;
+}
+
+.floater.wrap-header .header .busca {
+  margin: 15px 0 !important;
+  float: left;
+  width: 300px;
+  padding: 0 5px;
+}
+
+.floater .acesso-rapido {
+  width: 184px;
+  float: left;
+  background: url("/arquivos/floater-nav.png?dfsfds") center center no-repeat #64469B;
+  margin: 20px 20px 0;
+  height: 32px;
+  cursor: pointer;
+  position: relative;
+  border-radius: 5px;
+  padding: 1px 25px;
+}
+
+.floater.wrap-header .header .wrap-cart {
+  float: left;
+  margin-left: 15px;
+}
+
+.floater .cart-content li.amount-items {
+  font-size: 12px;
+}
+
+.floater .cart-content li.total-cart {
+  font-size: 11px;
+}
+
+.floater.wrap-header .header .busca input[type="button"] {
+  margin: 1px 0 0 -71px;
+  height: 27px;
+  width: 65px;
+  line-height: 0;
+  text-align: right;
+  font-size: 17px;
+}
+
+.floater.wrap-header .menu-departamento {
+  background: #fff;
+  float: left;
+  position: absolute;
+  left: 0;
+  top: 19px;
+  display: none;
+  width: 230px;
+  z-index: 99;
+  padding: 0;
+  border: solid 1px #1bb2b0;
+}
+
+.floater.wrap-header .menu-departamento h3 ul li a:hover {
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.floater.wrap-header .menu-departamento li ul li a:hover {
+  background: #036463;
+  border-radius: 0;
+}
+
+.floater.wrap-header .header {
+  width: 1000px;
+  margin: 0 auto;
+  clear: both;
+}
+
+.floater.wrap-header a.logo {
+  background: url('/arquivos/logo-mm-ilus.svg') no-repeat;
+  width: 215px;
+  height: 50px;
+  float: left;
+  background-size: 210px;
+  margin: 12px 0 0;
+}
+
+.acesso-rapido .menu-departamento,.acesso-rapido .Tamanho,.acesso-rapido .Cor,.menu-departamento h3 ul {
+  display: none;
+}
+
+.acesso-rapido:hover .menu-departamento {
+  display: block !important;
+}
+
+.acesso-rapido .menu-departamento h3:hover ul {
+  display: block;
+  position: absolute;
+  top: -19px;
+  left: 230px;
+    /* margin-left: 15px; */
+  width: 270px;
+  min-height: 215px;
+  padding-top: 15px;
+  padding-left: 25px;
+  background: #10153f;
+  border-radius: 5px;
+}
+
+.acesso-rapido .menu-departamento h3:hover {
+  background: #10153f;
+}
+
+.acesso-rapido .menu-departamento h3:hover a {
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.acesso-rapido .menu-departamento h3 {
+  float: left;
+  height: 25px;
+  margin: 0 0px 5px 0;
+  position: static !important;
+  padding: 2px 10px;
+  top: 0px !important;
+  left: 0 !important;
+  clear: both;
+  width: 100%;
+}
+
+.acesso-rapido .menu-departamento {
+  background-color: #FFFFFF;
+  height: 230px !important;
+  margin-top: 15px;
+  padding: 20px;
+  padding-top: 5px;
+  width: 215px;
+}
+
+.floater.wrap-header .carrinhoHeader {
+  background-size: 25px;
+  height: 35px;
+}
+
+.floater.wrap-headerÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â .minhasCompras {
+  margin: 0;
+}
+
+.floater .wrap-cart .minhasCompras {
+  margin: 5px 2px 0 0;
+}
+
+.floater .wrap-cart .amount-items-em {
+  margin: 0 3px;
+}
+
+.acesso-rapido .menu-departamento h3 a.productImage {
+  display: none !important;
+}
+
+.acesso-rapido .menu-departamento h3 ul li a {
+  color: #1bb2b0 !important;
+}
+
+.acesso-rapido .menu-departamento h3 ul li a:hover {
+  color: #fff !important;
+}
+
+.acesso-rapido .menu-departamento h3 a {
+  color: #10153f;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+.floater.wrap-header .carrinhoHeader:before {
+  content: 'Finalizar Compra';
+  display: block;
+  width: 140px;
+  height: 22px;
+  background: #1bb2b0;
+  position: absolute;
+  top: 45px;
+  color: #fff;
+  font-family: 'Yanone Kaffeesatz',sans-serif;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+.newsletter-footer {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.newsletter-footer {
+  background: #fff;
+  width: 295px;
+  height: 250px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.newsletter-footer p {
+  background: url(/arquivos/text-news-footer.png) no-repeat 5px 0;
+  text-indent: -9999em;
+  width: 260px;
+  height: 57px;
+  margin-top: 40px !important;
+}
+
+.newsletter-footer input#newsletterClientName {
+  display: none;
+}
+
+.newsletter-footer input#newsletterClientEmail {
+  border: 1px solid transparent;
+  width: 215px;
+  margin: 30px 0 0 10px;
+  padding: 3px 15px;
+  background-color: #10153f;
+  color: #FFFFFF;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+.newsletter-footer input#newsletterButtonOK {
+  float: right;
+  background: #1bb2b0;
+  margin: 25px 12px;
+  padding: 5px 20px;
+  height: auto;
+  width: auto;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 23px;
+  border-radius: 5px;
+}
+
+.newsletter-footer fieldset.error {
+  margin-top: 40px;
+  text-align: center;
+  color: #fff;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  width: 367px;
+  font-size: 21px;
+  background: url(/arquivos/text-news-footer-error.png) no-repeat center;
+  width: 260px;
+  height: 100px;
+}
+
+.newsletter-footer fieldset.error label {
+  display: none;
+}
+
+.newsletter-footer input.bt-voltar.newsletter-button-back {
+  float: right;
+  background: url(/arquivos/btn-voltar-news.png) no-repeat 0 0;
+  margin: 36px 12px;
+  height: 34px;
+  width: 152px;
+  border: none;
+  text-indent: -9999em;
+  cursor: pointer;
+}
+
+.newsletter-footer fieldset.success label {
+  color: #fff;
+  margin: 83px 0 !important;
+  display: block;
+  font-size: 20px;
+}
+
+.newsletter fieldset span.politica {
+  position: absolute;
+  top: 172px;
+  left: 10px;
+  background: none;
+  text-indent: 0;
+  color: #1BB2B0;
+  font-size: 13px;
+  text-align: left;
+  width: auto;
+  height: auto;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.newsletter fieldset span.politica a {
+  font-size: 13px;
+  clear: none;
+  float: none;
+  line-height: 1.3em;
+  text-decoration: underline;
+  color: #10153F;
+}
+
+.vantagens-top {
+  float: right;
+  width: 600px;
+  height: 31px;
+  background: #f2f1f1;
+}
+
+.vantagens-top span {
+  font-size: 11px;
+  display: inline-block;
+  margin: 5px 13px 0;
+  font-weight: 800;
+  font-family: Times;
+  line-height: initial;
+  line-height: 12px;
+}
+
+.vantagens-top span em {
+  display: block;
+  font-style: normal;
+  font-size: 9px;
+}
+/* mini cart */
+.v2-vtexsc-cart.vtexsc-cart.mouseActivated.preLoaded {
+  display: none !important;
+  width: 400px;
+  position: absolute;
+  top: 3px;
+  right: -262px;
+  background: #fff;
+  border: 2px solid #1BB2B0;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  color: #989898;
+}
+
+.carrinhoHeader:hover .v2-vtexsc-cart.vtexsc-cart.mouseActivated {
+  display: block !important;
+}
+
+.minicart-hidden {
+  position: absolute;
+  z-index: 999999;
+}
+
+.portal-minicart-ref img {
+  width: 40px;
+  height: 64px;
+}
+
+.portal-minicart-ref tr {
+  border-bottom: solid 1px #7accbf;
+  margin: 0 10px 5px;
+  padding-top: 8px;
+  display: inline-table;
+}
+
+.portal-minicart-ref tr:nth-child, .header-content .portal-minicart-ref tr:last-child {
+  border: 0;
+}
+
+td.cartSkuName {
+  width: 180px;
+  text-align: left;
+}
+
+table.vtexsc-productList thead {
+  display: none;
+}
+
+td.cartSkuPrice {
+  display: block;
+  float: left;
+  padding: 0 5px;
+  text-align: left;
+}
+
+.portal-minicart-ref table, .portal-minicart-ref td, .portal-minicart-ref tr, .portal-minicart-ref img {
+  display: block;
+  float: left;
+}
+
+td.cartSkuImage {
+  height: 65px;
+  margin-left: 0 !important;
+  margin-top: 0 !important;
+}
+
+td.cartSkuName h4 {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 100;
+}
+
+td.cartSkuName h4 a {
+  color: #989898;
+}
+
+span.cartSkuRemove a.text {
+  display: block !important;
+  font-size: 0;
+  color: #989898;
+}
+
+span.cartSkuRemove a.text:after {
+  content: 'X';
+  font-size: 16px;
+}
+
+span.cartSkuQttTxt span:after {
+  content: 'un';
+}
+
+.portal-minicart-ref td {
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+.cartFooter {
+  margin: 15px 13px;
+  float: left;
+  color: #64469a;
+  width: 375px;
+}
+
+.cartTotal span {
+  margin-left: 5px;
+}
+
+a.cartCheckout {
+  background: url("/arquivos/bt-finish.png") 0px -5px;
+  background-size: 100%;
+  width: 215px;
+  height: 30px;
+  float: right;
+}
+
+.cartFooter .cartTotal {
+  width: 100px;
+  float: left;
+}
+/* end mini cart */
+
+
+/* SANDERS - 1200 */
+.contentHeader {
+  width: 1200px;
+  overflow: visible;
+}
+.vantagens-top {
+  float: left !important;
+  position: relative;
+}
+.linksSuperiores {
+  position: relative;
+  z-index: 2;
+}
+.vantagens-top span {
+  position: relative;
+  z-index: 2;
+}
+.vantagens-top:before,
+.vantagens-top:after {
+  background-color: #f4f4f4;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  content: "";
+  width: 1000pc;
+  z-index: 1;
+}
+.vantagens-top:before {
+  left: 0;
+}
+.vantagens-top:after {
+  right: 0;
+}
+.buscaHeader {
+  margin-left: 215px;
+}
+.globalMenu ul.acessorios {
+  left: 242px;
+}
+.globalMenu ul.calcados {
+  left: 364px;
+}
+.globalMenu ul.casa {
+  left: 486px;
+}
+.globalMenu ul.sale {
+  left: 610px;
+}
+.floater.wrap-header .header {
+  width: 1200px;
+}
+.floater.wrap-header .header .wrap-cart {
+  float: right;
+}
+.floater .acesso-rapido {
+  margin: 20px 60px 0;
+}
+.floater.wrap-header .header .busca {
+  width: 420px;
+}
+.floater.wrap-header .header .busca input[type="text"] {
+  width: 400px;
+}
+.maisVendidos {
+  width: 1200px;
+  margin-left: 0;
+}
+.ui-menu-item {
+  display: block;
+}
+.ui-menu-item a {
+  color: #008887;
+  display: block;
+}
+
+.conteudo {
+  width: 1200px;
+}
+.swiper-container {
+  margin-left: auto;
+  margin-right: auto;
+  float: none;
+}
+.making-of {
+  float: right;
+  width: 480px;
+  height: 290px;
+}
+.making-of iframe {
+  width: 480px;
+  height: 290px;
+}
+.lookBookHome {
+  width: 1200px;
+  height: 345px;
+}
+.lookBookHome img {
+  width: 100%;
+  height: 100%;
+}
+.blogHome {
+  width: 685px;
+  height: 290px;
+}
+.blogHome img {
+  width: 100%;
+  height: 100%;
+}
+.tituloMaisVendidos {
+  width: 1200px;
+}
+.barraAzulHome,
+.barraRosaHome {
+  width: 469px;
+}
+.globalFooterContent {
+  width: 1200px;
+  padding-left: 0;
+}
+.globalFooterEndereco {
+  margin-top: 310px;
+}
+.bandeiras-parent {
+  width: 1200px;
+}
+.prateleira.maisVendidos ul {
+  height: 330px;
+}
+.prateleira.maisVendidos ul li {
+  margin: 0px 18px;
+}
+.lookBookHome {
+  margin-top: 60px;
+}
+.swiper-container,
+.swiper-slide {
+  width: 1200px;
+  margin-top: 15px;
+  height: 475px;
+}
+.swiper-slide img {
+  width: 100%;
+  height: 100%;
+}
+
+.container .container-center {
+  width: 1200px;
+}
+.container .x-container {
+  width: 945px;
+}
+.container .x-container .x-endereco {
+  margin-left: 0;
+  margin-right: 30px;
+  width: 290px;
+}
+.container .x-container .x-endereco ul {
+  padding-left: 0;
+}
+
+#content {
+  width: 1200px;
+}
+#content_interna {
+  width: 985px;
+}
+.quadrado.quemsomos,
+body.central .box-sobre-item {
+  width: 100%;
+}
+
+.bread-crumb {
+  width: 1200px;
+}
+.bread-crumb ul {
+  margin-left: 0;
+  padding-left: 0;
+}
+.banner2 {
+  width: 1190px;
+}
+.banner2 img {
+  width: 100%;
+  height: 100%;
+}
+.banner2 #banner2,
+.banner2 #banner2-rotator,
+.banner2 #content-slider,
+.banner2 #banner2-rotator,
+.banner2 #image-gallery,
+.banner2 #content-slider,
+.banner2 .royalWrapper,
+.banner2 .royalSlider,
+.banner2 #slider-ajax-container {
+  width: 1189px;
+  height: 360px;
+}
+ul.royalSlidesContainer {
+  padding-left: 0;
+}
+.sub {
+  width: 980px;
+}
+.zoomWindow {
+  left: 0px !important;
+  top: 0px !important;
+  width: 555px;
+  height: 790px;
+}
+.zoomWrapper {
+  width: 555px !important;
+  height: 790px !important;
+}
+.zoomWrapperImage {
+  width: 100% !important;
+  height: 100% !important;
+}
+#image-main {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.page-header {
+  width: 1200px;
+}
+.minhaContaContent {
+  width: 1190px;
+}
+
+#image {
+  width: 510px;
+  height: 100%;
+}
+#include {
+  height: 790px;
+  float: right;
+  width: 510px;
+  position: relative;
+}
+#coluna-esquerda {
+  width: 760px;
+}
+/* SANDERS - 1200 */
+
+.desktop {
+  display: block !important;
+}
+.mobile {
+  display: none !important;
+}
+
+@media screen and (min-width: 1px) and (max-width: 1024px) {
+  .desktop {
+    display: none !important;
+  }
+  .mobile {
+    display: block !important;
+  }
+
+  .prateleira.maisVendidos ul li a img {
+    width: 100%;
+    height: auto;
+  }
+  
+  #popCart {
+    overflow: scroll;
+    width: 100%;
+    height: 100%;
+  }
+  #popCart .closePopCart {
+    margin-top: 5px;
+    margin-right: 5px;
+  }
+  #popCart .wrapPopCart {
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    border: 0px solid #1BB2B0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    margin-left: 0;
+    margin-top: 0;
+    background: #fff;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    z-index: 6000;
+    box-sizing: border-box;
+    padding: 10px;
+    overflow: scroll;
+  }
+  #popCart .wrapPopCart .listaCart {
+    width: 100%;
+  }
+  #popCart .wrapPopCart .listaprods {
+    width: 100%;
+  }
+  #popCart .wrapPopCart .listaprods > div {
+    width: 20% !important;
+  }
+  #popCart .wrapPopCart .listaprods .removeItem {
+    width: 100% !important;
+    margin: 0;
+    color: red;
+  }
+  #popCart .wrapPopCart ul.header li,
+  #popCart .wrapPopCart ul.header li:nth-child(1) {
+    width: 33% !important;
+  }
+
+  #popCart .wrapPopCart .wraplista {
+    width: 100%;
+    height: 170px;
+    margin-bottom: 0;
+  }
+  #popCart .wrapPopCart .listaprods {
+    width: 100%;
+    margin: 0;
+  }
+  #popCart .wrapPopCart .msg {
+    padding: 0 20px;
+    float: left;
+    color: #10153F;
+    font-size: 18px;
+    text-align: left;
+    margin: 50px 0 10px 0;
+    clear: both;
+  }
+  #popCart .wrapPopCart .btns {
+    width: 100%;
+    height: 90px;
+  }
+  .skuList label {
+    width: 37px;
+    height: 37px;
+  }
+  #popCart .wrapPopCart ul.header {
+    width: 100%;
+  }
+  #popCart .wrapPopCart ul.header li:nth-child(1) {
+    padding-left: 0;
+  }
+  #popCart .wrapPopCart .msg {
+    margin-top: 30px;
+  }
+  #popCart .wrapPopCart ul.header {
+    height: 35px;
+  }
+  #popCart .wrapPopCart .btns a {
+    font-size: 19px;
+  }
+  #popCart .wrapPopCart .btns .continueshopping a {
+    margin-bottom: 10px;
+    margin-right: 10px;
+  }
+  #popCart .wrapPopCart .btns .goCart a {
+    float: left;
+  }
+  #popCart .wrapPopCart .wrap-fretereward {
+    width: 250px;
+    height: 80px;
+    position: relative;
+    bottom: 10px;
+    margin: 0 20px;
+    border-radius: 10px;
+    border: 1px solid #666;
+    padding: 0 10px 20px;
+    float: left;
+  }
+  .x-map-modal iframe {
+    position: absolute;
+    top: 120px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+  }
+
+  
+}
+
+
+@media screen and (min-width: 1px) and (max-width: 768px) {
+  *{
+    box-sizing: border-box;
+  }
+  #neoassist {
+    display: none;
+  }
+  body {
+    background-color: #fff;
+    overflow-x: hidden;
+    width: 100%;
+  }
+  .full {
+    width: 100%;
+    float: left;
+  }
+  /* HEADER */
+  .globalHeader,
+  .globalMenu {
+    display: none;
+  }
+  .floater.wrap-header {
+    display: none !important;
+  }
+  header {
+    overflow: hidden;
+    height: 122px;
+  }
+
+  .header {
+    background-color: #fff;
+    height: 55px;
+  }
+  .sprite-logo_mobile {
+    float: left;
+    margin: 10px 0 0 5px;
+    background: url(/arquivos/logo-mm-ilus.svg) left top no-repeat;
+    background-size: 100%;
+    width: 158px;
+    height: 36px;
+  }
+  .sprite-ico_menu_mobile,
+  .sprite-carrinho_mobile {
+    float: right;
+  }
+
+  .sprite-carrinho_mobile {
+    background: url(/arquivos/sprite-carrinho_mobile.png) center center no-repeat #1bb2b0;
+    width: 65px;
+    height: 55px;
+  }
+
+  .sprite-ico_menu_mobile {
+    width: 60px;
+    height: 55px;
+    position: relative;
+    z-index: 11;
+    background-color: #fff;
+  }
+  .sprite-ico_menu_mobile:before {
+    top: 50%;
+    left: 50%;
+    margin: -13px 0 0 -19px;
+    background: url(/arquivos/sprite-ico_menu_mobile.png);
+    width: 38px;
+    height: 26px;
+    position: absolute;
+    content: "";
+  }
+  .sprite-ico_menu_mobile.ativo {
+    background-color: #1bb2b0;
+  }
+  .sprite-ico_menu_mobile.ativo:before {
+    background: url(/arquivos/btn_fechar_menu_mobile.png) center center no-repeat;
+  }
+
+
+  
+  .busca_mobile {
+    background-color: #2b2b2b;
+    padding: 5px;
+    position: relative;
+  }
+  .busca {
+    position: relative;
+    width: 100%;
+    padding: 0;
+  }
+  .busca legend,
+  .busca label,
+  .busca select {
+    display: none;
+  }
+  .busca input[type=text] {
+    width: 100% !important;
+    height: 45px !important;
+    line-height: 45px !important;
+    position: relative !important;
+    z-index: 1 !important;
+    font-size: 13px !important;
+    color: #ffffff !important;
+    padding: 0px 10px !important;
+    border: 0 !important;
+    background-color: #585858 !important;
+  }
+  .busca input[type=button] {
+    background: url(/arquivos/btn_busca_mobile.png) left top no-repeat;
+    width: 19px !important;
+    height: 19px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    z-index: 2;
+    border: 0;
+    overflow: hidden;
+    text-indent: -1000px;
+  }
+  .ui-autocomplete {
+    width: 100% !important;
+    left: 0px !important;
+  }
+  .ui-autocomplete li {
+    left: 0;
+  }
+
+
+  
+  .header .menu {
+    display: none;
+    background-color: #1bb2b0;
+    position: fixed;
+    top: 55px;
+    right: 65px;
+    z-index: 10;
+    height: 100%;
+    width: 255px;
+  }
+  .header .menu.ativo {
+    display: block;
+  }
+  .ajusta_menu {
+    overflow: scroll;
+    float: left;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 55px;
+  }
+
+  .header .menu .ajusta_menu > ul {
+    padding: 0 5px;
+    width: 100%;
+  }
+  .header .menu .ajusta_menu > ul > li {
+    padding: 10px;
+    background-color: #49c1c0;
+    margin-bottom: 5px;
+    width: 100%;
+    float: left;
+  }
+  .header .menu .ajusta_menu > ul > li:first-child {
+    border-top: 0;
+  }
+  .header .menu .ajusta_menu > ul > li > a {
+    display: block;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 100;
+  }
+  .header .menu .ajusta_menu > ul > li > a:hover,
+  .header .menu .ajusta_menu > ul > li > a:active {
+    color: #fff;
+    opacity: 1;
+  }
+
+  .header .menu .ajusta_menu > ul > li > div a {
+    display: block;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    padding: 5px 15px;
+  }
+  .header .menu .ajusta_menu > ul > li > div a:before {
+    float: left;
+    content: "";
+    background-color: #fff;
+    width: 5px;
+    height: 5px;
+    border-radius: 15px;
+    margin: 10px 10px 0 0;
+  }
+
+  .ajusta_menu li>div {
+    height: 0;
+    overflow: hidden;
+    transition: all 0.5s;
+  }
+  .ajusta_menu li>a.ativo+div {
+    height: initial;
+  }
+
+
+  .fechar_menu {
+    background-color: #fff;
+    position: absolute;
+    top: -55px;
+    left: 0;
+    width: 100%;
+    height: 55px;
+    font-size: 20px;
+    color: #3a3a3a;
+    line-height: 55px;
+    display: block;
+    padding-left: 25px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+  }
+  .sprite-seta_fechar_menu_mobile:before {
+    position: absolute;
+    left: 10px;
+    top: 23px;
+    background: url(/arquivos/sprite-seta_fechar_menu_mobile.png) left top no-repeat;
+    width: 9px;
+    height: 11px;
+    content: "";
+  }
+  .fechar_menu a {
+    opacity: 1 !important;
+  }
+
+  .opcao_menu_atend,
+  .opcao_menu_lojas,
+  .opcao_menu_passaporte,
+  .opcao_menu_conta,
+  .opcao_menu_pedido {
+    border: 0 !important;
+    padding: 0 !important;
+  }
+
+  .opcao_menu_atend a,
+  .opcao_menu_lojas a,
+  .opcao_menu_passaporte a,
+  .opcao_menu_conta a,
+  .opcao_menu_pedido a {
+    background-color: #202020 !important;
+    font-size: 20px !important;
+    color: #fff !important;
+    padding: 10px 10px !important;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+  }
+  .opcao_menu_atend {
+    margin-top: 30px;
+  }
+
+  .opcao_menu_atend a:before,
+  .opcao_menu_lojas a:before,
+  .opcao_menu_passaporte a:before,
+  .opcao_menu_conta a:before,
+  .opcao_menu_pedido a:before {
+    content: "";
+    float: left;
+    margin-right: 10px;
+    width: 25px;
+    height: 25px;
+    background-position: center center;
+  }
+
+  .opcao_menu_atend a:before {
+    background-image: url(/arquivos/ico_opcao_menu_atend.png);
+  }
+  .opcao_menu_lojas a:before {
+    background-image: url(/arquivos/ico_opcao_menu_lojas.png);
+  }
+  .opcao_menu_passaporte a:before {
+    background-image: url(/arquivos/ico_opcao_menu_passaporte.png);
+  }
+  .opcao_menu_conta a:before {
+    background-image: url(/arquivos/ico_opcao_menu_conta.png);
+  }
+  .opcao_menu_pedido a:before {
+    background-image: url(/arquivos/ico_opcao_menu_pedido.png);
+  }
+
+  .fundo_black {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,.7);
+    z-index: 9;
+  }
+  /* HEADER */
+
+  /* FOOTER */
+  .globalFooterContent {
+    width: 100%;
+    padding: 10px 5px;
+    float: left;
+  }
+  .newsletter-footer {
+    position: relative;
+  }
+
+  .lojaVirtualFooter,
+  .institucionalFooter {
+    width: 50%;
+    padding: 0px 30px;
+  }
+  .socialFooter {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .socialFooter h1 {
+    text-align: center;
+  }
+  #redes-sociais-rodape {
+    width: 100%;
+    height: auto;
+  }
+  #redes-sociais-rodape .redes-sociais {
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+  #redes-sociais-rodape .redes-sociais li {
+    display: inline-block;
+  }
+  #redes-sociais-rodape .redes-sociais li a {
+    overflow: hidden;
+    text-indent: -1000px;
+  }
+  .newsletter-footer,
+  .newsletter-footer .newsletter {
+    float: left;
+    width: 100%;
+  }
+  .newsletter fieldset p {
+    width: 100%;
+    margin: 0;
+    font-size: 20px;
+    background-position: center top;
+  }
+  .newsletter-footer input#newsletterClientEmail {
+    width: 100%;
+    margin: 0;
+    height: 40px;
+  }
+  .newsletter fieldset span.politica {
+    width: 100%;
+    text-align: center;
+    top: 160px;
+  }
+  .newsletter-footer input#newsletterButtonOK {
+    margin-top: 50px;
+    margin-bottom: 0;
+  }
+  #seloEbit {
+    margin-top: 30px;
+    float: left !important;
+    left: 50%;
+    margin-left: -45px;
+  }
+  .globalFooterEndereco {
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+  }
+  #trustvox-selo-site-sincero {
+    background-position: center !important;
+    width: 100% !important;
+    margin-top: 10px !important;
+  }
+  .globalFooterBandeiras {
+    width: 100%;
+    height: auto;
+    padding: 0px 5px;
+    z-index: 19;
+    position: relative;
+    border-top: 0;
+  }
+  .bandeiras-parent {
+    width: 100%;
+  }
+  .bandeiras {
+    width: 100%;
+    background-size: 100%;
+    max-width: 459px;
+  }
+  .logo-enextms {
+    margin-right: 25px;
+  }
+  .globalFooter {
+    padding: 0;
+    z-index: 17;
+    position: relative;
+  }
+  /* FOOTER */
+
+  .conteudo {
+    width: 100%;
+    padding: 0px 5px;
+    float: left;
+  }
+  .swiper-container,
+  .swiper-slide {
+    width: 100%;
+  }
+  .swiper-container {
+    min-height: 200px;
+  }
+
+  .making-of {
+    margin: 0;
+    background-image: none;
+    height: auto;
+  }
+  .blogHome,
+  .making-of {
+    width: 100%;
+    float: left;
+  }
+  .blogHome,
+  .making-of {
+    margin-bottom: 25px;
+  }
+
+  .barraAzulHome {
+    display: none;
+  }
+
+  .fundo-video {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0;
+  }
+  .fundo-video iframe,
+  .fundo-video object,
+  .fundo-video embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .txtMaisVendidos,
+  .txtLookSemana {
+    margin-left: 0;
+    position: relative;
+    z-index: 2;
+    background-color: #fff;
+    padding-right: 15px;
+  }
+  .tituloMaisVendidos {
+    width: 100%;
+    position: relative;
+  }
+  .barraRosaHome {
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+  }
+
+  .lookBookHome {
+    width: 100%;
+  }
+
+  .maisVendidos {
+    width: 100%;
+  }
+  .prateleira.maisVendidos ul li {
+    width: 150px;
+    margin: 0px 12px;
+  }
+
+  .abre-filtro {
+    display: block !important;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #222222;
+    height: 55px;
+    line-height: 55px;
+    font-size: 15px;
+    color: #fff;
+    z-index: 18;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+  }
+  .abre-filtro span:after {
+    background: url(/arquivos/seta_filtro_mobile.png) left top no-repeat;
+    margin-left: 10px;
+    transition: .3s;
+    width: 12px;
+    height: 6px;
+    display: inline-block;
+    content: "";
+  }
+  .abre-filtro.ativo span:after {
+    transform: rotate(180deg);
+    transition: .3s;
+  }
+  .abre-filtro span:before {
+    content: "";
+    background: url(/arquivos/ico_filtro_mobile.png) left top no-repeat;
+    display: inline-block;
+    width: 16px;
+    height: 14px;
+    margin-right: 10px;
+  }
+  
+  .slide-onde-enc {
+    float: left;
+    width: 100%;
+  }
+  .container .container-center {
+    width: 100%;
+  }
+  .container .x-container {
+    width: 100%;
+    margin-left: 0;
+    padding: 0px 5px;
+  }
+  .container .x-container .x-endereco {
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .container .container-center .x-menu,
+  #sidebar {
+    width: 100%;
+    position: absolute;
+    top: 125px;
+    left: 0;
+    background-color: #ffffff;
+    z-index: 15;
+    display: none;
+    overflow: auto;
+    padding: 0px;
+    margin: 0 !important;
+    border-radius: 0 !important;
+  }
+  .container .container-center .x-menu h2.x-tit {
+    display: none;
+  }
+  .container .container-center .x-menu ul {
+    padding: 0;
+    padding: 5px;
+  }
+  .container .container-center .x-menu ul li {
+    background-color: #e4e4e4;
+    padding: 10px;
+    font-size: 20px;
+    color: #171717;
+    margin-bottom: 5px;
+  }
+
+  #sidebar ul {
+    background: #fff;
+    margin: 0px;
+    padding: 0px 5px;
+    width: 100%;
+    float: left;
+  }
+
+  #sidebar ul li {
+    background-color: #e4e4e4;
+    margin: 0;
+    margin-bottom: 5px;
+  }
+  #sidebar ul li a,
+  #sidebar ul li a:hover,
+  #sidebar ul li a:active {
+    padding: 10px;
+    font-size: 20px;
+    color: #171717;
+    width: 100%;
+    background-color: #e4e4e4;
+  }
+
+  #geral {
+    width: 100%;
+    float: left;
+  }
+
+  #content {
+    width: 100%;
+    float: left;
+    padding: 0px 5px;
+  }
+  #content_interna {
+    float: left;
+    width: 100%;
+    padding: 20px 0;
+    margin: 0 0px 30px 0px;
+    background-color: transparent;
+  }
+  .box-central {
+    width: 100%;
+    float: left;
+    background-color: transparent;
+  }
+  
+  .box-item-central {
+    width: 100%;
+  }
+  .titulo-item-central:after {
+    left: 0;
+    width: 1000pc;
+    content: "";
+    background-color: #10153f;
+    position: absolute;
+    z-index: -1;
+    top: 8px;
+    bottom: 7px;
+  }
+  .texto-item-central {
+    float: left;
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 20px;
+  }
+
+  /* DEPARTAMENTO */
+  #sidebar {
+    padding-bottom: 60px;
+  }
+  #sidebar h3 a,
+  #sidebar h4 a,
+  #sidebar h5 {
+    font-size: 20px;
+    text-align: left;
+  }
+  #sidebar fieldset {
+    width: 100% !important;
+    float: left;
+  }
+  .search-multiple-navigator h3.y-cattitle,
+  #sidebar .active h5 {
+    width: 100%;
+  }
+  .y-catmenu {
+    width: 100%;
+  }
+  .y-catmenu a {
+    width: 100%;
+    background-color: #e4e4e4;
+    font-size: 20px;
+    color: #171717;
+    margin: 0;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    padding: 5px 10px;
+  }
+  #sidebar fieldset > div {
+    background-color: #1bb2b0;
+  }
+  #sidebar .filtro_cor label {
+    width: 100%;
+    text-indent: 40px;
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: inherit !important;
+    border: 0;
+    border-top: 1px solid #3dbdbc;
+    color: #fff;
+    line-height: 40px;
+    height: 40px;
+    margin-bottom: 0;
+    font-size: 20px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+  }
+  #sidebar fieldset h5 {
+    margin-bottom: 0;
+    margin-top: 20px;
+  }
+
+  #sidebar fieldset.filtro_tamanho > div {
+    background-color: transparent;
+    margin-top: 10px;
+  }
+  #sidebar .active h5 {
+    background-color: #49c1c0;
+  }
+  .banner2 {
+    background: #fff;
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    padding: 0 5px 5px;
+  }
+  .banner2 img {
+    width: 100%;
+    height: auto;
+  }
+  .banner2 #banner2,
+  .banner2 #banner2-rotator,
+  .banner2 #content-slider,
+  .banner2 #banner2-rotator,
+  .banner2 #image-gallery,
+  .banner2 #content-slider,
+  .banner2 .royalWrapper,
+  .banner2 .royalSlider,
+  .banner2 #slider-ajax-container {
+    width: 100%;
+  }
+
+  .sub {
+    width: 100%;
+  }
+  /* DEPARTAMENTO */
+
+  /* PRODUTO */
+  #coluna-direita {
+    width: 100%;
+    padding-left: 0;
+    padding-top: 0;
+  }
+  #coluna-esquerda {
+    width: 100%;
+  }
+  #include,
+  #image {
+    width: 100%;
+    float: left;
+    height: auto;
+  }
+  #image-main {
+    width: 100%;
+    height: auto;
+  }
+  .thumbs {
+    width: 100%;
+    float: left;
+  }
+  .thumbs li {
+    margin-right: 5px;
+  }
+  .productName {
+    position: absolute;
+    top: 170px;
+  }
+  .productReference {
+    position: absolute;
+    top: 240px;
+  }
+
+  .produto .x-shelf .prateleira h2 span:first-child:before,
+  .x-shelf .prateleira h2 span:last-child:before {
+    background-color: transparent;
+  }
+  .produto .x-shelf ul li {
+    width: 180px;
+    margin-bottom: 60px;
+    margin-left: 10px;
+  }
+  .lightbox img {
+    width: 90%;
+    max-width: 800px;
+    margin-top: 0;
+  }
+  /* PRODUTO */
+
+  .bread-crumb {
+    width: 100%;
+    padding: 0px 5px;
+  }
+
+  #sociaisDireita {
+    width: 100%;
+  }
+  #cart-to-orderform {
+    padding: 0 !important;
+    float: left;
+  }
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  *{
+    box-sizing: border-box;
+  }
+  #neoassist {
+    display: none;
+  }
+  body {
+    background-color: #fff;
+    overflow-x: hidden;
+    width: 100%;
+  }
+  .full {
+    width: 100%;
+    float: left;
+  }
+  .bread-crumb {
+    width: 100%;
+    padding: 0px 5px;
+  }
+  /* HEADER */
+  .globalHeader,
+  .globalMenu {
+    display: none;
+  }
+  .floater.wrap-header {
+    display: none !important;
+  }
+  header {
+    overflow: hidden;
+    height: 122px;
+  }
+
+  .header {
+    background-color: #fff;
+    height: 55px;
+  }
+  .sprite-logo_mobile {
+    float: left;
+    margin: 10px 0 0 5px;
+    background: url(/arquivos/logo-mm-ilus.svg) left top no-repeat;
+    background-size: 100%;
+    width: 158px;
+    height: 36px;
+  }
+  .sprite-ico_menu_mobile,
+  .sprite-carrinho_mobile {
+    float: right;
+  }
+
+  .sprite-carrinho_mobile {
+    background: url(/arquivos/sprite-carrinho_mobile.png) center center no-repeat #1bb2b0;
+    width: 65px;
+    height: 55px;
+  }
+
+  .sprite-ico_menu_mobile {
+    width: 60px;
+    height: 55px;
+    position: relative;
+    z-index: 90;
+    background-color: #fff;
+  }
+  .sprite-ico_menu_mobile:before {
+    top: 50%;
+    left: 50%;
+    margin: -13px 0 0 -19px;
+    background: url(/arquivos/sprite-ico_menu_mobile.png);
+    width: 38px;
+    height: 26px;
+    position: absolute;
+    content: "";
+  }
+  .sprite-ico_menu_mobile.ativo {
+    background-color: #1bb2b0;
+  }
+  .sprite-ico_menu_mobile.ativo:before {
+    background: url(/arquivos/btn_fechar_menu_mobile.png) center center no-repeat;
+  }
+
+
+  
+  .busca_mobile {
+    background-color: #2b2b2b;
+    padding: 5px;
+    position: relative;
+  }
+  .busca {
+    position: relative;
+    width: 100%;
+    padding: 0;
+  }
+  .busca legend,
+  .busca label,
+  .busca select {
+    display: none;
+  }
+  .busca input[type=text] {
+    width: 100% !important;
+    height: 45px !important;
+    line-height: 45px !important;
+    position: relative !important;
+    z-index: 1 !important;
+    font-size: 13px !important;
+    color: #ffffff !important;
+    padding: 0px 10px !important;
+    border: 0 !important;
+    background-color: #585858 !important;
+  }
+  .busca input[type=button] {
+    background: url(/arquivos/btn_busca_mobile.png) left top no-repeat;
+    width: 19px !important;
+    height: 19px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    z-index: 2;
+    border: 0;
+    overflow: hidden;
+    text-indent: -1000px;
+  }
+  .ui-autocomplete {
+    width: 100% !important;
+    left: 0px !important;
+  }
+  .ui-autocomplete li {
+    left: 0;
+  }
+
+
+  
+  .header .menu {
+    display: none;
+    background-color: #1bb2b0;
+    position: fixed;
+    top: 55px;
+    right: 65px;
+    z-index: 90;
+    height: 100%;
+    width: 255px;
+  }
+  .header .menu.ativo {
+    display: block;
+  }
+  .ajusta_menu {
+    overflow: scroll;
+    float: left;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 55px;
+  }
+
+  .header .menu .ajusta_menu > ul {
+    padding: 0 5px;
+    width: 100%;
+  }
+  .header .menu .ajusta_menu > ul > li {
+    padding: 10px;
+    background-color: #49c1c0;
+    margin-bottom: 5px;
+    width: 100%;
+    float: left;
+  }
+  .header .menu .ajusta_menu > ul > li:first-child {
+    border-top: 0;
+  }
+  .header .menu .ajusta_menu > ul > li > a {
+    display: block;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 100;
+  }
+  .header .menu .ajusta_menu > ul > li > a:hover,
+  .header .menu .ajusta_menu > ul > li > a:active {
+    color: #fff;
+    opacity: 1;
+  }
+
+  .header .menu .ajusta_menu > ul > li > div a {
+    display: block;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    padding: 5px 15px;
+  }
+  .header .menu .ajusta_menu > ul > li > div a:before {
+    float: left;
+    content: "";
+    background-color: #fff;
+    width: 5px;
+    height: 5px;
+    border-radius: 15px;
+    margin: 10px 10px 0 0;
+  }
+
+  .ajusta_menu li>div {
+    height: 0;
+    overflow: hidden;
+    transition: all 0.5s;
+  }
+  .ajusta_menu li>a.ativo+div {
+    height: initial;
+  }
+
+
+  .fechar_menu {
+    background-color: #fff;
+    position: absolute;
+    top: -55px;
+    left: 0;
+    width: 100%;
+    height: 55px;
+    font-size: 20px;
+    color: #3a3a3a;
+    line-height: 55px;
+    display: block;
+    padding-left: 25px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+  }
+  .sprite-seta_fechar_menu_mobile:before {
+    position: absolute;
+    left: 10px;
+    top: 23px;
+    background: url(/arquivos/sprite-seta_fechar_menu_mobile.png) left top no-repeat;
+    width: 9px;
+    height: 11px;
+    content: "";
+  }
+  .fechar_menu a {
+    opacity: 1 !important;
+  }
+
+  .opcao_menu_atend,
+  .opcao_menu_lojas,
+  .opcao_menu_passaporte,
+  .opcao_menu_conta,
+  .opcao_menu_pedido {
+    border: 0 !important;
+    padding: 0 !important;
+  }
+
+  .opcao_menu_atend a,
+  .opcao_menu_lojas a,
+  .opcao_menu_passaporte a,
+  .opcao_menu_conta a,
+  .opcao_menu_pedido a {
+    background-color: #202020 !important;
+    font-size: 20px !important;
+    color: #fff !important;
+    padding: 10px 10px !important;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+  }
+  .opcao_menu_atend {
+    margin-top: 30px;
+  }
+
+  .opcao_menu_atend a:before,
+  .opcao_menu_lojas a:before,
+  .opcao_menu_passaporte a:before,
+  .opcao_menu_conta a:before,
+  .opcao_menu_pedido a:before {
+    content: "";
+    float: left;
+    margin-right: 10px;
+    width: 25px;
+    height: 25px;
+    background-position: center center;
+  }
+
+  .opcao_menu_atend a:before {
+    background-image: url(/arquivos/ico_opcao_menu_atend.png);
+  }
+  .opcao_menu_lojas a:before {
+    background-image: url(/arquivos/ico_opcao_menu_lojas.png);
+  }
+  .opcao_menu_passaporte a:before {
+    background-image: url(/arquivos/ico_opcao_menu_passaporte.png);
+  }
+  .opcao_menu_conta a:before {
+    background-image: url(/arquivos/ico_opcao_menu_conta.png);
+  }
+  .opcao_menu_pedido a:before {
+    background-image: url(/arquivos/ico_opcao_menu_pedido.png);
+  }
+
+  .fundo_black {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,.7);
+    z-index: 89;
+  }
+  /* HEADER */
+
+  /* FOOTER */
+  #trustvox-selo-site-sincero {
+    display: none !important;
+  }
+  .globalFooterContent {
+    width: 100%;
+    padding: 10px 5px;
+    float: left;
+  }
+  .newsletter-footer {
+    position: relative;
+  }
+
+  .lojaVirtualFooter,
+  .institucionalFooter {
+    width: 35%;
+    padding: 0px 30px;
+  }
+  .socialFooter {
+    width: 30%;
+    margin-top: 20px;
+  }
+  .socialFooter h1 {
+    text-align: center;
+  }
+  #redes-sociais-rodape {
+    width: 100%;
+    height: auto;
+  }
+  #redes-sociais-rodape .redes-sociais {
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+  #redes-sociais-rodape .redes-sociais li {
+    display: inline-block;
+  }
+  #redes-sociais-rodape .redes-sociais li a {
+    overflow: hidden;
+    text-indent: -1000px;
+  }
+  .newsletter-footer {
+    height: auto;
+  }
+  .newsletter-footer,
+  .newsletter-footer .newsletter {
+    float: left;
+    width: 100%;
+  }
+  .newsletter fieldset p {
+    width: 40%;
+    margin: 0;
+    font-size: 20px;
+    background-position: center top;
+    float: left;
+  }
+  .newsletter-footer input#newsletterClientEmail {
+    width: 40%;
+    margin: 30px 0 0 0;
+    height: 40px;
+    float: right;
+  }
+  .newsletter fieldset span.politica {
+    width: 40%;
+    text-align: center;
+    top: 100px;
+    left: 58%;
+  }
+  .newsletter-footer input#newsletterButtonOK {
+    margin-top: 40px;
+    margin-bottom: 0;
+    clear: both;
+  }
+  #seloEbit {
+    margin-top: 30px;
+    float: left !important;
+    left: 50%;
+    margin-left: -45px;
+  }
+  .globalFooterEndereco {
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+  }
+  #trustvox-selo-site-sincero {
+    background-position: center !important;
+    width: 100% !important;
+    margin-top: 10px !important;
+  }
+  .globalFooterBandeiras {
+    width: 100%;
+    height: auto;
+    padding: 0px 5px;
+    z-index: 19;
+    position: relative;
+    border: 0;
+  }
+  .bandeiras-parent {
+    width: 100%;
+  }
+  .bandeiras {
+    width: 100%;
+    background-size: 100%;
+    max-width: 459px;
+  }
+  .logo-enextms {
+    margin-right: 25px;
+  }
+  .globalFooter {
+    padding: 0;
+    z-index: 17;
+    position: relative;
+  }
+  body + object {
+    display: none;
+  }
+  /* FOOTER */
+
+  .conteudo {
+    width: 100%;
+    padding: 0px 5px;
+    float: left;
+  }
+  .swiper-container,
+  .swiper-slide {
+    width: 100%;
+  }
+
+  .making-of {
+    margin: 0;
+    background-image: none;
+    height: auto;
+  }
+  .blogHome,
+  .making-of {
+    width: 60%;
+    float: left;
+    margin-top: 30px;
+  }
+  .making-of {
+    float: right;
+    width: 39%;
+  }
+  .blogHome,
+  .making-of {
+    margin-bottom: 25px;
+  }
+
+  .barraAzulHome {
+    display: none;
+  }
+
+  .fundo-video {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0;
+  }
+  .fundo-video iframe,
+  .fundo-video object,
+  .fundo-video embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .txtMaisVendidos,
+  .txtLookSemana {
+    margin-left: 0;
+    position: relative;
+    z-index: 2;
+    background-color: #fff;
+    padding-right: 15px;
+  }
+  .tituloMaisVendidos {
+    width: 100%;
+    position: relative;
+  }
+  .barraRosaHome {
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+  }
+
+  .lookBookHome {
+    width: 100%;
+  }
+
+  .maisVendidos {
+    width: 100%;
+  }
+  .prateleira.maisVendidos ul li {
+    width: 150px;
+    margin: 0px 12px;
+  }
+
+  .abre-filtro {
+    display: block !important;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #222222;
+    height: 55px;
+    line-height: 55px;
+    font-size: 15px;
+    color: #fff;
+    z-index: 18;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+  }
+  .abre-filtro span:after {
+    background: url(/arquivos/seta_filtro_mobile.png) left top no-repeat;
+    margin-left: 10px;
+    transition: .3s;
+    width: 12px;
+    height: 6px;
+    display: inline-block;
+    content: "";
+  }
+  .abre-filtro.ativo span:after {
+    transform: rotate(180deg);
+    transition: .3s;
+  }
+  .abre-filtro span:before {
+    content: "";
+    background: url(/arquivos/ico_filtro_mobile.png) left top no-repeat;
+    display: inline-block;
+    width: 16px;
+    height: 14px;
+    margin-right: 10px;
+  }
+
+  .Lojas .abre-filtro {
+    z-index: 18;
+  }
+  
+  .slide-onde-enc {
+    float: left;
+    width: 100%;
+  }
+  .container .container-center {
+    width: 100%;
+  }
+  .container .x-container {
+    width: 100%;
+    margin-left: 0;
+    padding: 0px 5px;
+  }
+  .container .x-container .x-endereco {
+    width: 33%;
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .container .container-center .x-menu,
+  #sidebar {
+    width: 100%;
+    position: absolute;
+    top: 125px;
+    left: 0;
+    background-color: #ffffff;
+    z-index: 18;
+    display: none;
+    overflow: auto;
+    padding: 0px;
+    margin: 0 !important;
+    border-radius: 0 !important;
+  }
+  .container .container-center .x-menu h2.x-tit {
+    display: none;
+  }
+  .container .container-center .x-menu ul {
+    padding: 0;
+    padding: 5px;
+  }
+  .container .container-center .x-menu ul li {
+    background-color: #e4e4e4;
+    padding: 10px;
+    font-size: 20px;
+    color: #171717;
+    margin-bottom: 5px;
+  }
+
+  #sidebar ul {
+    background: #fff;
+    margin: 0px;
+    padding: 0px 5px;
+    width: 100%;
+    float: left;
+  }
+
+  #sidebar ul li {
+    background-color: #e4e4e4;
+    margin: 0;
+    margin-bottom: 5px;
+  }
+  #sidebar ul li a,
+  #sidebar ul li a:hover,
+  #sidebar ul li a:active {
+    padding: 10px;
+    font-size: 20px;
+    color: #171717;
+    width: 100%;
+    background-color: #e4e4e4;
+  }
+
+  #geral {
+    width: 100%;
+    float: left;
+  }
+
+  #content {
+    width: 100%;
+    float: left;
+    padding: 0px 5px;
+  }
+  .produto #content {
+    margin-top: 100px;
+  }
+  #content_interna {
+    float: left;
+    width: 100%;
+    padding: 20px 0;
+    margin: 0 0px 30px 0px;
+    background-color: transparent;
+  }
+  .box-central {
+    width: 100%;
+    float: left;
+    background-color: transparent;
+  }
+  
+  .box-item-central {
+    width: 100%;
+  }
+  .titulo-item-central:after {
+    left: 0;
+    width: 1000pc;
+    content: "";
+    background-color: #10153f;
+    position: absolute;
+    z-index: -1;
+    top: 8px;
+    bottom: 7px;
+  }
+  .texto-item-central {
+    float: left;
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 20px;
+  }
+
+  /* DEPARTAMENTO */
+  #sidebar {
+    padding-bottom: 60px;
+  }
+  #sidebar h3 a,
+  #sidebar h4 a,
+  #sidebar h5 {
+    font-size: 20px;
+    text-align: left;
+  }
+  #sidebar fieldset {
+    width: 100% !important;
+    float: left;
+  }
+  .search-multiple-navigator h3.y-cattitle,
+  #sidebar .active h5 {
+    width: 100%;
+  }
+  .y-catmenu {
+    width: 100%;
+  }
+  .y-catmenu a {
+    width: 100%;
+    background-color: #e4e4e4;
+    font-size: 20px;
+    color: #171717;
+    margin: 0;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    padding: 5px 10px;
+  }
+  #sidebar fieldset > div {
+    background-color: #1bb2b0;
+  }
+  #sidebar .filtro_cor label {
+    width: 100%;
+    text-indent: 40px;
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: inherit !important;
+    border: 0;
+    border-top: 1px solid #3dbdbc;
+    color: #fff;
+    line-height: 40px;
+    height: 40px;
+    margin-bottom: 0;
+    font-size: 20px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+  }
+  #sidebar fieldset h5 {
+    margin-bottom: 0;
+    margin-top: 20px;
+  }
+
+  #sidebar fieldset.filtro_tamanho > div {
+    background-color: transparent;
+    margin-top: 10px;
+  }
+  #sidebar .active h5 {
+    background-color: #49c1c0;
+  }
+  /* DEPARTAMENTO */
+}
+
+@media screen and (min-width: 666px) and (max-width: 1024px) {
+  .prateleira.maisVendidos ul li {
+    width: 150px;
+    margin: 0px 32px !important;
+  }
+}
