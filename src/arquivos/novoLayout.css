@@ -37,7 +37,7 @@ body {
   width: 230px;
   height: 50px;
   float: left;
-  background-image: url('/arquivos/logo-sketch.svg');
+  background-image: url('/arquivos/logoMarciaMello.png');
   background-size: 230px;
   background-position: 0px center;
   margin: 7px 0px 0px 20px;
@@ -1342,7 +1342,7 @@ div#DigiCertClickID_rDYbygEk span a {
 }
 
 .floater.wrap-header a.logo {
-  background: url('/arquivos/logo-sketch.svg') no-repeat;
+  background: url('/arquivos/logoMarciaMello.png') no-repeat;
   width: 215px;
   height: 50px;
   float: left;
@@ -2122,7 +2122,7 @@ ul.royalSlidesContainer {
   .sprite-logo_mobile {
     float: left;
     margin: 10px 0 0 5px;
-    background: url(/arquivos/logo-sketch.svg) left top no-repeat;
+    background: url(/arquivos/logoMarciaMello.png) left top no-repeat;
     background-size: 100%;
     width: 158px;
     height: 36px;
@@ -2907,7 +2907,7 @@ ul.royalSlidesContainer {
   .sprite-logo_mobile {
     float: left;
     margin: 10px 0 0 5px;
-    background: url(/arquivos/logo-sketch.svg) left top no-repeat;
+    background: url(/arquivos/logoMarciaMello.png) left top no-repeat;
     background-size: 100%;
     width: 158px;
     height: 36px;
@@ -3587,4 +3587,20 @@ ul.royalSlidesContainer {
     width: 150px;
     margin: 0px 32px !important;
   }
+}
+
+/* PAINEL DE CONTROLE */
+
+.nav-tabs>li>a, .nav-pills>li>a {
+    padding-right: 12px;
+    padding-left: 12px;
+    margin-right: 2px;
+    margin-top: 30px!important;
+    line-height: 14px;
+}
+
+.nav {
+    margin-bottom: 0px!important;
+    margin-left: 0;
+    list-style: none;
 }
