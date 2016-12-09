@@ -1,0 +1,379 @@
+.globalHeader{
+	height: 95px !important;
+}
+
+.container{
+	width: 100% !important;
+	margin-bottom: 100px !important;
+    margin-left:0px;
+}
+
+
+h1, h2, h3,h6{
+margin: 0px !important;
+line-height: 21px !important;
+}
+
+p{
+    margin:0px !important;
+}
+
+ul {
+	margin: 16px 0px 0px 0px;
+	padding: 0px 0px 0px 24px;
+}
+.globalMenu a:hover{
+	text-decoration: none;
+}
+ 
+ #rodape p {
+ 	padding-top:10px;
+ }
+ 
+ .amount-items{
+ 	line-height: normal;
+ }
+ 
+.page-header{
+	padding: 18px 0px 18px 10px !important;
+	background: #008887;
+	margin-bottom: 5px;
+	color: #5d5d5d !important;
+	margin: 20px auto;
+	border-radius: 2px;
+	width: 980px;
+	font-family: 'Yanone Kaffeesatz',sans-serif;
+}
+ 
+.page-header h1{
+	color:white !important;
+}
+
+.page-header h3 {
+	font-size: 30px;
+	margin-left: 14px !important;
+}
+ 
+.order-header {
+	background:none;
+}
+
+.ordergroup{
+	background-color: #FFF;
+}
+
+.order-info h1,
+.order-info h2,
+.order-info h3,
+.order-info h4,
+.order-info h5,
+.order-info h6{
+	line-height: 20px !important;
+}
+
+.row-fluid .top-row .span9{
+	margin-top: 50px;
+}
+
+.seller-info {
+	padding-top: 10px;
+}
+
+.Items td,.Shipping td,.Discounts td,.monetary{
+	padding: 5px !important;
+}
+
+.order-header.page-header{
+	margin-top: 0px!important;
+}
+
+.cart-items thead tr{
+	background-color: #F5F5F5;
+}
+
+.vtex-bootstrap .form-search .search-query{
+	border-radius:8px !important;
+}
+
+#globalHeader{
+	margin-bottom:50px;
+}
+
+#global_footer{
+	margin-top:50px;
+}
+
+.profile-detail-display{
+	line-height: 2em;
+	width: 460px;
+	margin-top: 5px;
+	font-family: 'Yanone Kaffeesatz',sans-serif;
+	font-size: 16px;
+}
+.profile-detail-display h4 ,.address-display-block h4{ 
+	border-bottom: 1px solid gainsboro;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+	padding: 5px;
+	color: #008887;
+	font-family: 'Yanone Kaffeesatz',sans-serif;
+	font-size: 20px;
+}
+
+.address-display-block{
+	width: 460px;
+	margin-top: 5px;
+	font-family: 'Yanone Kaffeesatz',sans-serif;
+	font-size: 16px;
+}
+
+.minhaContaContent{
+	margin: 5px auto 0;
+	width: 970px;
+	border: 1px solid gainsboro;
+	background: white;
+	padding-left: 20px;
+	padding-bottom: 30px;
+	-webkit-border-bottom-right-radius: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+	-moz-border-radius-bottomright: 10px;
+	-moz-border-radius-bottomleft: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+.profile-detail-display-email, .edit-profile-link, .profile-detail-display-info{
+	margin-left:4px !important;
+	font-family: 'Yanone Kaffeesatz',sans-serif;
+	font-size: 16px;
+}
+
+.globalFooterContent h1{
+	margin-bottom: 20px !important;
+}
+.floater.wrap-header{
+	display: none !important;
+}
+ul.cart-info{
+	margin: 0 0 0 15px;
+}
+.globalMenu{
+	margin-top: 2px !important;
+}
+fieldset.busca{
+	margin: 3px 7px;
+	padding: inherit;
+}
+.newsletter-footer input#newsletterButtonOK{
+	margin-top: 40px !important;
+}
+.container{
+	width: 100% !important;
+	margin-bottom: 100px !important;
+    margin-left:0px;
+}
+
+h1, h2, h3,h6{
+	margin: 0px !important;
+	line-height: 21px !important;
+}
+
+p {
+    margin:0px !important;
+    font-size: 18px;
+}
+
+ul {
+	margin: 16px 0px 0px 0px;
+	padding: 0px 0px 0px 24px;
+}
+
+ 
+#rodape p {
+ 	padding-top:10px;
+}
+ 
+.amount-items{
+ 	line-height: normal;
+}
+ 
+.page-header{
+	padding: 18px 0px 18px 10px !important;
+	background: #008887;
+	margin-bottom: 5px;
+	color: white;
+	margin: 20px auto;
+	border-radius: 2px;
+	width: 980px;
+	font-family: 'Yanone Kaffeesatz',sans-serif;
+}
+ 
+.page-header h1{
+	color:white !important;
+}
+
+.page-header h3 {
+	font-size: 30px;
+	margin-left: 14px !important;
+}
+
+.order-header {
+	background:none;
+}
+
+.ordergroup {
+	background-color: #FFF;
+}
+
+.order-info h1,
+.order-info h2,
+.order-info h3,
+.order-info h4,
+.order-info h5,
+.order-info h6 {
+	line-height: 20px !important; 
+}
+
+.row-fluid .top-row .span9{
+	margin-top: 50px;
+}
+
+.seller-info{
+	padding-top: 10px;
+}
+
+.visible-phone{
+	display:none;
+}
+
+.Items,
+.Shipping {
+	background-color:whitesmoke;
+}
+
+.Items td,
+.Shipping td,
+.Discounts td,
+.monetary {
+	padding: 5px !important;
+}
+
+.order-header.page-header{
+	margin-top: 0px!important;
+}
+
+.cart-items thead tr{
+	background-color: #F5F5F5;
+}
+
+.vtex-bootstrap .form-search .search-query{
+	border-radius:8px !important;
+}
+
+#globalHeader{
+	margin-bottom:50px;
+}
+
+#global_footer{
+	margin-top:50px;
+}
+
+.profile-detail-display{
+	line-height: 2em;
+	width: 460px;
+	margin-top: 5px;
+	font-family: 'Yanone Kaffeesatz',sans-serif;
+	font-size: 16px;
+}
+
+.profile-detail-display h4 ,.address-display-block h4 {
+	border-bottom: 1px solid gainsboro;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+	padding: 5px;
+	color: #008887;
+	font-family: 'Yanone Kaffeesatz',sans-serif;
+	font-size: 25px;
+}
+
+.profile-detail-display h5 {
+	font-size: 16px!important;
+}
+
+.address-display-block{
+	width: 460px;
+	margin-top: 5px;
+	font-family: 'Yanone Kaffeesatz',sans-serif;
+	font-size: 16px;
+}
+
+.minhaContaContent{
+	margin: 5px auto 0;
+	width: 970px;
+	border: 1px solid gainsboro;
+	background: white;
+	padding-left: 20px;
+	padding-bottom: 30px;
+	-webkit-border-bottom-right-radius: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+	-moz-border-radius-bottomright: 10px;
+	-moz-border-radius-bottomleft: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+.profile-detail-display-email, 
+.edit-profile-link, 
+.profile-detail-display-info {
+	margin-left:4px !important;
+	font-family: 'Yanone Kaffeesatz',sans-serif;
+	font-size: 18px;
+}
+
+.globalFooterContent h1{
+	margin-bottom: 20px !important;
+}
+.floater.wrap-header{
+	display: none !important;
+}
+ul.cart-info{
+	margin: 0;
+	padding:25px 40px;
+}
+.carrinhoHeader:hover{
+	color:#848688;
+	text-decoration:none;
+}
+.globalMenu{
+	margin-top: 2px !important;
+}
+fieldset.busca{
+	margin: 3px 7px;
+	padding: inherit;
+}
+.newsletter-footer input#newsletterButtonOK{
+	margin-top: 40px !important;
+	margin-right: 25px !important;
+}
+.newsletter-footer input#newsletterClientEmail{
+    margin-left: 24px !important;
+}
+.newsletter fieldset p{
+    margin-left: 16px !important;
+}
+a.modalCloseImg.simplemodal-close{
+	line-height: 37px;
+}
+a.modalCloseImg.simplemodal-close:hover{
+	text-decoration: none;
+}
+
+/* ALTER NO BOOTSTRAP */
+
+.nav-tabs>li>a, .nav-pills>li>a {
+    color: #fff !important;
+}
+
+.nav>li>a:hover, .nav>li>a:focus {
+    color: #08c !important;
+}
