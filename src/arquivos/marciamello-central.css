@@ -207,7 +207,6 @@ padding: 0 10px;
 
 .titcentral {
     float: left;
-    height: 300px;
     width: 64%;
 }
 
@@ -248,7 +247,7 @@ padding: 10px;
 }
 
 .neospacer {
-margin:500px 0px 0px 0px;   
+margin:200px 0px 0px 0px;   
 }
 
 .boxnew h1 {

@@ -1963,6 +1963,13 @@ ul.royalSlidesContainer {
   .mobile {
     display: block !important;
   }
+  .imgcentral {
+    display: none !important;
+  }
+  .titcentral {
+    float: left;
+    width: 100%;
+}
 
   .prateleira.maisVendidos ul li a img {
     width: 100%;
@@ -2868,6 +2875,13 @@ ul.royalSlidesContainer {
   *{
     box-sizing: border-box;
   }
+  .imgcentral {
+    display: none !important;
+  }
+  .titcentral {
+    float: left;
+    width: 100%;
+  }
   body {
     background-color: #fff;
     overflow-x: hidden;
@@ -3156,6 +3170,7 @@ ul.royalSlidesContainer {
     background-color: rgba(0,0,0,.7);
     z-index: 89;
   }
+
   /* HEADER */
 
   /* FOOTER */
