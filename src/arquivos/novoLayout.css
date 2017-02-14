@@ -1966,6 +1966,9 @@ ul.royalSlidesContainer {
   .imgcentral {
     display: none !important;
   }
+  .boxnew {
+  width:100% !important;
+  }
   .titcentral {
     float: left;
     width: 100%;
