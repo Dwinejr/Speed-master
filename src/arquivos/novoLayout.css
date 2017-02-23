@@ -356,15 +356,6 @@ body {
   position: absolute;
 }
 
-.menu-departamento ul.roupas {
-  padding-right: 24px;
-  min-height: 184px;
-  width: 440px;
-  left: 108px;
-  columns: 4;
-  -webkit-columns: 4;
-}
-
 h3.preview-verao-2015 {
   background-image: url("/arquivos/previewVeraoIcone.png");
   background-position: 28px 7px;
@@ -392,13 +383,6 @@ h3.reveillon:hover {
   background-position: -135px -7px;
 }
 
-.globalMenu h3.roupas {
-  background-image: url("/arquivos/roupasIcone.png");
-  background-position: 39px 4px;
-  background-repeat: no-repeat;
-  background-size: 113px;
-}
-
 .globalMenu h3.acessorios {
   background-position: 34px 4px;
   background-repeat: no-repeat;
@@ -406,7 +390,6 @@ h3.reveillon:hover {
 }
 
 .globalMenu h3.sapatos {
-  background-image: url("/arquivos/sapatosIcone.png");
   background-position: 36px 6px;
   background-repeat: no-repeat;
   background-size: 119px;
@@ -933,6 +916,9 @@ fieldset.success {
   height: 304px;
   float: left;
   margin-left: 25px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 1.2rem;
+  -webkit-font-smoothing: antialiased;
 }
 
 .prateleira.maisVendidos ul {
@@ -1007,7 +993,7 @@ fieldset.success {
 
 .globalMenuContent {
   margin: 0 auto;
-  width: 900px;
+  width: 1000px;
 }
 
 .menu-departamento h3 ul {
@@ -1029,12 +1015,6 @@ fieldset.success {
   display: block;
   text-align: center;
   z-index: 98;
-}
-
-ul.roupas a.productImage {
-  float: right;
-  margin-top: 8px;
-  margin-right: -18px;
 }
 
 ul.acessorios a.productImage {
@@ -1160,12 +1140,6 @@ p.didyoumean {
 @-moz-document url-prefix() {
   ul .acessorios a.productImage; {
     margin: -95px 5px 0px 0px !important;
-  }
-}
-
-@-moz-document url-prefix() {
-  ul .roupas a.productImage; {
-    margin-top: -135px !important;
   }
 }
 
@@ -1572,9 +1546,10 @@ div#DigiCertClickID_rDYbygEk span a {
   display: inline-block;
   margin: 5px 13px 0;
   font-weight: 800;
-  font-family: Times;
+  font-family: Helvetica, sans-serif;
   line-height: initial;
   line-height: 12px;
+  -webkit-font-smoothing: antialiased;
 }
 
 .vantagens-top span em {
@@ -3631,4 +3606,22 @@ ul.royalSlidesContainer {
   height: 290px;
   float: left;
   margin-top: 30px;
+}
+
+/* JS LOADER */
+
+#scrollLoading {
+    border: #1bb2b0 solid 2px !important;
+    margin: 20px auto !important;
+    clear: both !important;
+    height: 20px !important;
+    line-height: 20px !important; 
+    padding: 5px !important;
+    width: 110px !important;
+    color: #FFF !important;
+    font-size: 21px !important;
+    background: url(/arquivos/rolling-right.gif) no-repeat #1bb2b0 !important;
+    background-position: 94% 50%!important;
+    background-size: 18px!important;
+    font-family: 'Yanone Kaffeesatz', sans-serif !important;
 }
