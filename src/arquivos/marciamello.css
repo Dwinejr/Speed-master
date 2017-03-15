@@ -11,15 +11,15 @@ body {
     /*background: url(/arquivos/bgBody.jpg);*/
 }
 
-.institucional:hover, 
-#blog:hover, 
-.profite:hover, 
-.vtex:hover, 
-#newsletterButtonOK:hover, 
-.jcarousel-prev:hover, 
-.jcarousel-next:hover, 
-.Tamanho .specification a:hover, 
-.search-navigator-tab:hover, 
+.institucional:hover,
+#blog:hover,
+.profite:hover,
+.vtex:hover,
+#newsletterButtonOK:hover,
+.jcarousel-prev:hover,
+.jcarousel-next:hover,
+.Tamanho .specification a:hover,
+.search-navigator-tab:hover,
 #TB_closeAjaxWindow:hover {
     opacity: 0.65;
     -moz-opacity: 0.65;
@@ -113,7 +113,7 @@ input[type="text"]:focus {
     -o-transition: all .5s ease-out;
     -ms-transition: all .5s ease-out;
 }
-#header #tel_comercial {    
+#header #tel_comercial {
     float: right;
     font-size: 12px;
     color: #fff;
@@ -153,12 +153,12 @@ input[type="text"]:focus {
 #carrinho:hover em, #carrinho:hover span {
     color: #8e7330;
 }
-.cartInfoWrapper .title, 
-.amount-products, 
-.amount-kits, 
+.cartInfoWrapper .title,
+.amount-products,
+.amount-kits,
 .total-cart,
-#busca legend, 
-#busca label, 
+#busca legend,
+#busca label,
 #busca select {
     display: none;
 }
@@ -1224,8 +1224,8 @@ body.search-result #sidebar .menu-departamento .search-single-navigator {
     position: relative;
 }
 #content_interna .prateleira li {
-    width: 237px;
-    height: 410px;
+    width: 320px;
+    height: 510px;
     margin: 15px 3px;
     transition: all .2s;
     -moz-transition: all .2s ease-out;
@@ -1265,7 +1265,7 @@ body.search-result #sidebar .menu-departamento .search-single-navigator {
     font-weight: bold;
     letter-spacing: 1px;
     float: left;
-    width: 95%;
+    width: 96.5%;
 }
 .direita_prateleira {
     display: block;
@@ -3264,7 +3264,7 @@ li:hover .show-precos {
     display: none;
 }
 .vitrine .nomeproduto {
-    width: 215px;
+    width: 300px;
     margin: 0 10px;
     text-align: center;
 }
@@ -3523,8 +3523,8 @@ li:hover .show-precos {
 ul.preview-verao-2015 {
     margin-top: 19px;
 }
-.box-item-central .titulo-item-central .nome-itens-central .titulo, 
-.box-item-central .titulo-item-central .nome-itens-central-3 .titulo, 
+.box-item-central .titulo-item-central .nome-itens-central .titulo,
+.box-item-central .titulo-item-central .nome-itens-central-3 .titulo,
 .box-item-central .titulo-item-central .nome-itens-central-2 .titulo {
     font-family: 'Yanone Kaffeesatz', sans-serif;
     font-size: 17px;
@@ -3676,19 +3676,19 @@ div#opiniao_de_usuario {
     width: 100%;
     height: 0px;
     overflow: hidden;
-    -webkit-transition: all 0.5s ease-in-out;  
-    -moz-transition: all 0.5s ease-in-out;  
-    -ms-transition: all 0.5s ease-in-out;  
-    -o-transition: all 0.5s ease-in-out;  
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
 }
 
 .x-tab.open {
     height: auto;
-    -webkit-transition: all 0.5s ease-in-out; 
-    -moz-transition: all 0.5s ease-in-out;  
-    -ms-transition: all 0.5s ease-in-out;  
-    -o-transition: all 0.5s ease-in-out;  
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
     padding: 20px 0px;
 }
@@ -4014,8 +4014,8 @@ div#opiniao_de_usuario {
     background: #1BB2B0 !important;
     color: #FFFFFF !important;
     width: 165px;
-    background-image: url('/arquivos/y-arrowact.png') !important;    
-    background-repeat: no-repeat !important;    
+    background-image: url('/arquivos/y-arrowact.png') !important;
+    background-repeat: no-repeat !important;
     background-position: 95% center !important;
 }
 
@@ -4024,8 +4024,8 @@ div#opiniao_de_usuario {
 }
 
 h3.y-cattitle.active {
-    background-image: url('/arquivos/y-arrow.png') !important;    
-    background-repeat: no-repeat !important;    
+    background-image: url('/arquivos/y-arrow.png') !important;
+    background-repeat: no-repeat !important;
     background-position: 95% center !important;
 }
 
@@ -4047,7 +4047,7 @@ h3.y-cattitle.active {
 }
 
 .y-catmenu a:hover {
-    font-weight:bold;  
+    font-weight:bold;
 }
 
 .modal {opacity: 1!important; top: 30px !important;}
