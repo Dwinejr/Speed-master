@@ -8,12 +8,12 @@ $(document).ajaxStop(function () {
             autoplayDisableOnInteraction: false
         });
     }
-    
+
     if (!$('.newsletter-footer .politica').length) {
         $('.newsletter-footer input#newsletterClientEmail').after('<span class="politica">Ao inserir seus dados você concorda com nossa <a href="/central-de-atendimento/politica-de-privacidade" target="_blank">política de privacidade</a>.</span>')
     };
 
-    setTimeout(function(){ 
+    setTimeout(function(){
         if ($('.newsletter-footer .success').length) {
             $('.newsletter-footer fieldset.success').html('<p>Obrigada por se cadastrar!</p><br><p>Utilize o cupom <span>BEMVINDAMM</span> na sacola de compras.</p> ');
         };
@@ -66,5 +66,16 @@ $(document).ajaxStop(function () {
         $(this).appendTo( $(this).prev() );
     });
 
-}); 
+});
 
+//POSICIONAR O SCROLL NOVAMENTE AONDE O USUÁRIO PAROU NO BACK BUTTON
+
+$(window).scroll(function () {
+  //set scroll position in session storage
+  sessionStorage.scrollPos = $(window).scrollTop();
+});
+var init = function () {
+   //return scroll position in session storage
+   $(window).scrollTop(sessionStorage.scrollPos || 0)
+};
+window.onload = init;
