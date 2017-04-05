@@ -1038,7 +1038,7 @@ fieldset.error {
 }
 
 #sidebar h3 a, #sidebar h4 a, #sidebar h5 {
-    background: #1BB2B0;
+    background: #000000;
     color: #FFFFFF;
     border-radius: 1px;
     display: block;
@@ -1058,7 +1058,7 @@ fieldset.error {
 }
 
 .bread-crumb li.last a {
-    color: #10153F !important;
+    color: #000000 !important;
 }
 
 .bread-crumb li.last {
@@ -1143,7 +1143,7 @@ fieldset.error {
 }
 
 #content {
-    margin: 20px auto 0;
+    margin: 0px auto 0;
     width: 980px;
 }
 
@@ -1165,7 +1165,7 @@ fieldset.error {
 }
 
 #sidebar ul {
-    background: #10153F;
+    background: #000000;
     margin: 0px!important;
     padding: 1px 0px 16px 5px;
     width: 165px;
@@ -1405,24 +1405,22 @@ body.search-result #sidebar .menu-departamento .search-single-navigator {
     background: #fff;
     float: right;
     width: 737px;
-    padding: 20px 0;
+    padding: 20px 0px 60px 0px;
     margin: 0 0px 70px 0px;
     position: relative;
 }
 
 #content_interna .prateleira li {
     width: 320px;
-    height: 510px;
+    height: 560px;
     margin: 15px 3px;
     transition: all .2s;
     -moz-transition: all .2s ease-out;
     -webkit-transition: all .2s ease-out;
     -o-transition: all .2s ease-out;
-    border: solid 1px transparent;
 }
 
 #content_interna .prateleira li:hover {
-    border: solid 1px #1BB2B0;
 }
 
 #content_interna .prateleira li .parcela {
@@ -1430,7 +1428,7 @@ body.search-result #sidebar .menu-departamento .search-single-navigator {
     text-align: center;
     float: left;
     display: block;
-    color: #008887;
+    color: #000000;
     font-size: 18px;
     font-weight: bold;
 }
@@ -1452,7 +1450,7 @@ body.search-result #sidebar .menu-departamento .search-single-navigator {
     font-family: 'Yanone Kaffeesatz', sans-serif;
     color: #fff;
     font-size: 22px;
-    background: #1BB2B0;
+    background: #000000;
     text-align: center;
     height: 37px;
     margin: 10px 6px 6px;
@@ -1484,7 +1482,7 @@ body.search-result #sidebar .menu-departamento .search-single-navigator {
 
 .outOfStock {
     color: #1bb2b0;
-    margin-left: 90px;
+    margin-left: 133px;
 }
 
 .descricao_prateleira {
@@ -2019,12 +2017,12 @@ fieldset.orderBy {
 }
 
 .skuList label.sku-picked {
-    color: #10153F;
+    color: #000000;
     /* position: relative; */
     /* background-image: url("/arquivos/icone_v.png"); */
     /* background-repeat: no-repeat; */
     /* background-position: -2px 0px; */
-    box-shadow: 0px 0px 0px 2px #10153F;
+    box-shadow: 0px 0px 0px 2px #000000;
 }
 
 .skuList label:hover {
@@ -2130,7 +2128,7 @@ body.look .notifyme {
 }
 
 #sociaisDireita {
-    border-top: 1px solid #10153F;
+    border-top: 1px solid #000000;
     float: left;
     margin: 10px 0 0;
     padding: 17px 0 0;
@@ -4176,7 +4174,7 @@ ul.preview-verao-2015 {
 
 .Cor .skuList label:before {
     content: attr(data-content);
-    background: #10153F;
+    background: #000000;
     color: #fff !important;
     text-indent: 0 !important;
     font-size: 10px;
@@ -4410,7 +4408,7 @@ div#opiniao_de_usuario {
     height: 2px;
     top: 50%;
     margin-top: -1px;
-    background: #10153F;
+    background: #000000;
 }
 
 .x-shelf .prateleira h2 span:last-child {
@@ -4418,7 +4416,7 @@ div#opiniao_de_usuario {
     font-family: 'Yanone Kaffeesatz', sans-serif;
     font-size: 40px;
     text-transform: uppercase;
-    color: #10153F;
+    color: #000000;
 }
 
 .x-shelf .prateleira {
@@ -4475,11 +4473,11 @@ div#opiniao_de_usuario {
 }
 
 .thumbs li a {
-    border: 1px solid #bbb;
+  /*  border: 1px solid #bbb; */
 }
 
 .thumbs li a.ON {
-    border: 1px solid #000;
+  /*  border: 1px solid #000; */
 }
 
 .x-opentab.active {
@@ -4578,7 +4576,7 @@ div#opiniao_de_usuario {
 
 #popCart .closePopCart {
     float: right;
-    background: #10153F;
+    background: #000000;
     color: #fff;
     padding: 5px 11px;
     border-radius: 20px;
@@ -4784,7 +4782,7 @@ div#opiniao_de_usuario {
 #popCart .wrapPopCart .msg {
     padding: 0 20px;
     float: right;
-    color: #10153F;
+    color: #000000;
     font-size: 18px;
     text-align: right;
     margin: 10px 0;
@@ -4805,7 +4803,7 @@ div#opiniao_de_usuario {
 
 #popCart .wrapPopCart .btns .continueshopping a {
     float: left;
-    background: #10153F;
+    background: #000000;
     border-radius: 5px;
 }
 
@@ -4816,7 +4814,7 @@ div#opiniao_de_usuario {
 }
 
 .resultado-busca #sidebar h3 {
-    background: #004568 !important;
+    background: #000 !important;
     color: #FFFFFF !important;
     width: 165px;
     background-repeat: no-repeat !important;

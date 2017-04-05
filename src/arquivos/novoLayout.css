@@ -9,6 +9,8 @@ html {
 
 body {
   margin: 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .separadorLinksSuperiores {
@@ -62,14 +64,14 @@ body {
 }
 
 .linksSuperiores span.top-desconto {
-  color: #10153F;
+  color: #000000;
   font-size: 16px;
   cursor: pointer;
 }
 
 .linksSuperiores a:hover {
   text-decoration: underline;
-  color: #10153F;
+  color: #000000;
 }
 
 .infoSacHeader {
@@ -94,7 +96,7 @@ body {
   background-image: url('/arquivos/bgCarrinho.png');
   background-repeat: no-repeat;
   background-size: 41px;
-  color: #10153F;
+  color: #000000;
   overflow: hidden;
 }
 
@@ -157,7 +159,7 @@ body {
   background-color: #fff;
   border: none;
   margin-left: -76px;
-  color: #10153f;
+  color: #000000;
   font-size: 20px;
   font-family: 'Yanone Kaffeesatz',sans-serif;
   cursor: pointer;
@@ -177,7 +179,7 @@ body {
 .separadorLinksInferiores {
   width: 1px;
   height: 43px;
-  background-color: #10153F;
+  background-color: #000000;
   float: left;
   margin: -5px 9px 0 5px;
 }
@@ -190,7 +192,7 @@ body {
 }
 
 .linksInferiores a {
-  color: #10153F;
+  color: #000000;
   text-decoration: none;
   font-size: 18px;
   margin-top: -4px;
@@ -241,8 +243,9 @@ body {
 
 .globalMenu {
   width: 100%;
-  height: 23px;
-  background-color: #1BB2B0;
+  height: 26px;
+  /*background-color: #1BB2B0; summer */
+  background-color: #000000;
   float: left;
   margin-top: -6px;
 }
@@ -251,12 +254,17 @@ body {
   float: left;
   position: relative;
   width: 121px;
-  height: 23px;
+  height: 26px;
   margin-top: 0px;
   text-align: center;
   cursor: pointer;
   background-repeat: no-repeat;
   border-right: 1px solid #fff;
+  color: #ffffff;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 20px;
 }
 
 .globalMenu a.menu-item-texto {
@@ -270,7 +278,7 @@ body {
 }
 
 .globalMenu h3:hover {
-  background-color: #fff;
+
 }
 
 .globalMenu h3 a, .globalMenu ul li a {
@@ -283,13 +291,13 @@ body {
 
 .globalMenu ul {
   position: absolute;
-  top: 7px;
+  top: 10px;
   width: 370px;
   display: none;
-  background-color: rgba(255,255,255,0.9);
+  background-color: #000;
   text-align: left;
   border-top: 0 !important;
-  border: solid 1px #1bb2b0;
+  border: solid 1px #000000;
   z-index: 3;
   padding: 0px 10px 0px 24px;
   margin: 16px 0px 0px 0px;
@@ -313,7 +321,8 @@ body {
 .globalMenu ul li {
   width: 175px;
   display: inline-block;
-  color: #007f7b;
+  color: #FFF;
+  /*color: #4f341f;*/
   line-height: 33px;
   /* overflow: visible !important; */
   position: relative;
@@ -325,29 +334,32 @@ body {
 }
 
 .globalMenu ul li a {
-  color: #1bb2b0;
+  color: #FFF;
+  /* color: #4f341f; */
   text-transform: none;
   width: auto;
   float: left;
   margin: 5px 0 0;
-  border-radius: 10px;
 }
 
 .globalMenu ul li a:hover {
-  color: #fff;
-  display: inline-block;
-  background-color: #10153f;
-  border-radius: 15px;
-  padding: 0 20px;
+  color: #1bb2b0;
+  background-color: #000000;
   left: -20px;
-  position: relative;
-  font-size: 17px;
 }
 
-.globalMenu h3.sale,
 .globalMenu ul.sale a:hover {
-  background-color: #FF7200;
+  background-color: #000;
+  color: #750e2b!important;
 }
+.globalMenu h3.sale a:hover{
+  color: #fff!important;
+}
+.globalMenu h3.sale {
+  background-color: #750e2b;
+  color: #750e2b!important;
+}
+
 
 .vestidoGlobalMenu {
   width: 152px;
@@ -403,7 +415,7 @@ h3.reveillon:hover {
 
 /*hovers menu*/
 h3:hover > a {
-  color: #10153F;
+
 }
 
 .linksInferiores a:hover {
@@ -607,9 +619,9 @@ fieldset.success {
 }
 
 .newsletter-footer .success p span {
-  color: #10153F;
+  color: #000000;
   font-size: 26px;
-  text-shadow: 0 0 2px #10153F;
+  text-shadow: 0 0 2px #000000;
   float: none;
   display: inline;
   line-height: normal;
@@ -624,7 +636,7 @@ fieldset.success {
 .globalFooter {
   width: 100%;
   float: left;
-  background-color: #1bb2b0;
+  background-color: #000000;
   padding: 0px 0px 8px 0px;
 }
 
@@ -668,7 +680,7 @@ fieldset.success {
 }
 
 .globalFooter a:hover {
-  color: #10153F;
+  color: #1bb2b0;
   font-size: 20px;
   transition: 0.4s;
 }
@@ -769,7 +781,7 @@ fieldset.success {
   width: 100%;
   height: 76px;
   background-color: #ffffff;
-  border-top: 6px solid #10153f;
+  border-top: 6px solid #1bb2b0;
   float: left;
 }
 
@@ -845,7 +857,7 @@ fieldset.success {
 }
 
 .txtMaisVendidos, .txtLookSemana {
-  color: #10153f;
+  color: #000000;
   float: left;
   margin: -27px 31px 0px 31px;
   font-size: 44px;
@@ -857,7 +869,7 @@ fieldset.success {
 }
 
 .txtVendidos, .txtSemana {
-  color: #10153f;
+  color: #000000;
   font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
@@ -1346,12 +1358,12 @@ div#DigiCertClickID_rDYbygEk span a {
   min-height: 215px;
   padding-top: 15px;
   padding-left: 25px;
-  background: #10153f;
+  background: #000000;
   border-radius: 5px;
 }
 
 .acesso-rapido .menu-departamento h3:hover {
-  background: #10153f;
+  background: #000000;
 }
 
 .acesso-rapido .menu-departamento h3:hover a {
@@ -1410,7 +1422,7 @@ div#DigiCertClickID_rDYbygEk span a {
 }
 
 .acesso-rapido .menu-departamento h3 a {
-  color: #10153f;
+  color: #000000;
   font-family: 'Yanone Kaffeesatz', sans-serif;
   font-size: 18px;
   text-transform: uppercase;
@@ -1464,7 +1476,7 @@ div#DigiCertClickID_rDYbygEk span a {
   width: 215px;
   margin: 30px 0 0 10px;
   padding: 3px 15px;
-  background-color: #10153f;
+  background-color: #000000;
   color: #FFFFFF;
   border-radius: 5px;
   text-transform: uppercase;
@@ -1536,7 +1548,7 @@ div#DigiCertClickID_rDYbygEk span a {
   float: none;
   line-height: 1.3em;
   text-decoration: underline;
-  color: #10153F;
+  color: #000000;
 }
 
 .x-newsletter-footer {
@@ -1545,7 +1557,7 @@ div#DigiCertClickID_rDYbygEk span a {
   top: 0;
   background: #fff;
   width: 295px;
-  height: 250px;
+  height: 260px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
 }
@@ -1571,7 +1583,7 @@ div#DigiCertClickID_rDYbygEk span a {
   float: none;
   line-height: 1.3em;
   text-decoration: underline;
-  color: #10153F;
+  color: #000000;
 }
 
 .x-newsletter-footer .x-newsletter-send .title {
@@ -1593,7 +1605,7 @@ div#DigiCertClickID_rDYbygEk span a {
   display: inline-block;
   margin: 30px 0 0 10px;
   padding: 3px 15px;
-  background-color: #10153f;
+  background-color: #000000;
   color: #FFFFFF;
   border-radius: 5px;
   text-transform: uppercase;
@@ -1659,9 +1671,9 @@ div#DigiCertClickID_rDYbygEk span a {
 }
 
 .x-newsletter-footer .x-newsletter-sucess p span {
-  color: #10153F;
+  color: #000000;
   font-size: 26px;
-  text-shadow: 0 0 2px #10153F;
+  text-shadow: 0 0 2px #000000;
   float: none;
   display: inline;
   line-height: normal;
@@ -2144,7 +2156,7 @@ ul.royalSlidesContainer {
   #popCart .wrapPopCart .msg {
     padding: 0 20px;
     float: left;
-    color: #10153F;
+    color: #000000;
     font-size: 18px;
     text-align: left;
     margin: 50px 0 10px 0;
@@ -2844,7 +2856,7 @@ ul.royalSlidesContainer {
     left: 0;
     width: 1000pc;
     content: "";
-    background-color: #10153f;
+    background-color: #000000;
     position: absolute;
     z-index: -1;
     top: 8px;
@@ -3656,7 +3668,7 @@ ul.royalSlidesContainer {
     left: 0;
     width: 1000pc;
     content: "";
-    background-color: #10153f;
+    background-color: #000000;
     position: absolute;
     z-index: -1;
     top: 8px;
