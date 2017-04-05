@@ -11,6 +11,7 @@ body {
   margin: 0px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  line-height: 1;
 }
 
 .separadorLinksSuperiores {
@@ -265,6 +266,7 @@ body {
   font-weight: 400;
   text-transform: uppercase;
   font-size: 20px;
+  line-height: 25px!important;
 }
 
 .globalMenu a.menu-item-texto {
@@ -824,13 +826,13 @@ fieldset.success {
 
 .making-of {
   width: 400px;
-  background: url(/arquivos/bgMakingOf.jpg) no-repeat;
   float: left;
-  margin: 30px 0px 0px 20px;
+  margin: 0px 0px 0px 20px;
   height: 240px;
 }
 
 .making-of iframe {
+  margin-top: 30px;
   width: 401px;
   height: 237px;
 }
@@ -1909,11 +1911,11 @@ a.cartCheckout {
 .making-of {
   float: right;
   width: 460px;
-  height: 290px;
+  height: 269px;
 }
 .making-of iframe {
-  width: 480px;
-  height: 290px;
+  width: 460px;
+  height: 269px;
 }
 .lookBookHome {
   width: 1200px;
@@ -3772,16 +3774,18 @@ ul.royalSlidesContainer {
 
 .blogCall01 {
   width: 370px;
-  height: 290px;
+  height: 270px!important;
   float: left;
   margin-top: 30px;
+  overflow: hidden;
 }
 
 .blogCall02 {
   width: 350px;
-  height: 290px;
+  height: 270px!important;
   float: left;
   margin-top: 30px;
+  overflow: hidden;
 }
 
 /* JS LOADER */
