@@ -5,6 +5,12 @@ html {
 * {
   list-style: none;
   text-decoration: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h3 {
+  font-weight: 400;
 }
 
 body {
@@ -1273,13 +1279,13 @@ div#DigiCertClickID_rDYbygEk span a {
 .floater .acesso-rapido {
   width: 184px;
   float: left;
-  background: url("/arquivos/floater-nav.png?dfsfds") center center no-repeat #64469B;
+  background: #000;
   margin: 20px 20px 0;
   height: 32px;
   cursor: pointer;
   position: relative;
-  border-radius: 5px;
-  padding: 1px 25px;
+  border-radius: 0px;
+  padding: 8px 20px 0px 15px;
 }
 
 .floater.wrap-header .header .wrap-cart {
@@ -1314,12 +1320,12 @@ div#DigiCertClickID_rDYbygEk span a {
   width: 230px;
   z-index: 99;
   padding: 0;
-  border: solid 1px #1bb2b0;
+  border: solid 0px #1bb2b0;
 }
 
 .floater.wrap-header .menu-departamento h3 ul li a:hover {
   text-decoration: none;
-  border-radius: 5px;
+  border-radius: 0px;
 }
 
 .floater.wrap-header .menu-departamento li ul li a:hover {
@@ -1346,6 +1352,14 @@ div#DigiCertClickID_rDYbygEk span a {
   display: none;
 }
 
+.acesso-rapido {
+  color: #FFF;
+  margin-top: 3px;
+    padding-top: : 3px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 24px;
+}
+
 .acesso-rapido:hover .menu-departamento {
   display: block !important;
 }
@@ -1356,20 +1370,21 @@ div#DigiCertClickID_rDYbygEk span a {
   top: -19px;
   left: 230px;
     /* margin-left: 15px; */
-  width: 270px;
+  width: 300px;
   min-height: 215px;
-  padding-top: 15px;
-  padding-left: 25px;
+  padding: 10px 15px 10px 15px;
   background: #000000;
-  border-radius: 5px;
+  color: #FFF;
+  border-radius: 0px;
 }
 
 .acesso-rapido .menu-departamento h3:hover {
   background: #000000;
+  color: #FFF;
 }
 
 .acesso-rapido .menu-departamento h3:hover a {
-  color: #fff;
+  color: #FFF;
   letter-spacing: 1px;
 }
 
@@ -1378,7 +1393,7 @@ div#DigiCertClickID_rDYbygEk span a {
   height: 25px;
   margin: 0 0px 5px 0;
   position: static !important;
-  padding: 2px 10px;
+  padding: 5px 10px 0px 10px;
   top: 0px !important;
   left: 0 !important;
   clear: both;
@@ -1392,6 +1407,15 @@ div#DigiCertClickID_rDYbygEk span a {
   padding: 20px;
   padding-top: 5px;
   width: 215px;
+  color: #000000;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 200px !important;
+}
+
+.acesso-rapido .menu-departamento a:hover {
+  color: #fff;
 }
 
 .floater.wrap-header .carrinhoHeader {
@@ -1415,8 +1439,13 @@ div#DigiCertClickID_rDYbygEk span a {
   display: none !important;
 }
 
+.acesso-rapido .menu-departamento h3 ul li {
+  padding-top: 5px;
+}
+
 .acesso-rapido .menu-departamento h3 ul li a {
   color: #1bb2b0 !important;
+  margin-top: 15px;
 }
 
 .acesso-rapido .menu-departamento h3 ul li a:hover {
